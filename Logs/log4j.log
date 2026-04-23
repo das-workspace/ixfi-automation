@@ -1,0 +1,2173 @@
+2025-05-22 11:46:38 INFO  Log:12 - =====================================validateMarketTrendGainersTableDataTest TEST START=========================================
+2025-05-22 11:46:38 INFO  Log:22 - Scrolled to the MarketTrend Section
+2025-05-22 11:46:45 INFO  Log:22 - Table Headers:
+2025-05-22 11:46:45 INFO  Log:22 - Header Row 1: [Name, Last Price, 24h CHG, Market Cap, Market (30d), Action]
+2025-05-22 11:46:45 INFO  Log:22 - Table Body Rows:
+2025-05-22 11:46:45 INFO  Log:22 - Row 1: [LISTA
+Lista, $0.30, +52.11%, $57.7M, , Details
+Trade]
+2025-05-22 11:46:45 INFO  Log:22 - Checking if the value is positive+52.11%
+2025-05-22 11:46:45 INFO  Log:22 - Row 2: [ANIME
+Animecoin, $0.027, +18.97%, $154.3M, , Details
+Trade]
+2025-05-22 11:46:45 INFO  Log:22 - Checking if the value is positive+18.97%
+2025-05-22 11:46:45 INFO  Log:22 - Row 3: [MANTA
+Manta, $0.31, +13.62%, $131.1M, , Details
+Trade]
+2025-05-22 11:46:45 INFO  Log:22 - Checking if the value is positive+13.62%
+2025-05-22 11:46:45 INFO  Log:22 - Row 4: [CVC
+Civic, $0.15, +12.43%, $150.3M, , Details
+Trade]
+2025-05-22 11:46:45 INFO  Log:22 - Checking if the value is positive+12.43%
+2025-05-22 11:46:45 INFO  Log:22 - Row 5: [RUNE
+THORChain, $2.05, +11.77%, $722M, , Details
+Trade]
+2025-05-22 11:46:45 INFO  Log:22 - Checking if the value is positive+11.77%
+2025-05-22 11:46:45 INFO  Log:22 - Successfully validated both headers and body rows. including Positive values in 24h CHG.
+2025-05-22 11:46:45 INFO  Log:16 - =====================================validateMarketTrendGainerTableDataTest TEST END=========================================
+2025-05-22 11:46:57 INFO  Log:12 - =====================================validateMarketTrendLosersTableDataTest TEST START=========================================
+2025-05-22 11:46:57 INFO  Log:22 - Scrolled to the MarketTrend Section
+2025-05-22 11:47:03 INFO  Log:22 - Loosers Table Data: {bodyRows=[[FXS
+Frax Share, $3.63, -5.72%, $329.2M, , ], [ATA
+Automata, $0.055, -7.41%, $32.9M, , Details
+Trade], [OM
+MANTRA DAO, $0.41, -3.61%, $402.1M, , Details
+Trade], [XNO
+Nano token, $0.98, -0.30%, $1,167M, , Details
+Trade], [AAVE
+Aave, $251.52, -3.38%, $3,813.3M, , Details
+Trade]], headers=[[Name, Last Price, 24h CHG, Market Cap, Market (30d), Action]]}
+2025-05-22 11:47:03 INFO  Log:22 - Table Headers:
+2025-05-22 11:47:03 INFO  Log:22 - Header Row 1: [Name, Last Price, 24h CHG, Market Cap, Market (30d), Action]
+2025-05-22 11:47:03 INFO  Log:22 - Table Body Rows:
+2025-05-22 11:47:03 INFO  Log:22 - Row 1: [FXS
+Frax Share, $3.63, -5.72%, $329.2M, , ]
+2025-05-22 11:47:03 INFO  Log:22 - Checking if the value is Negative-5.72%
+2025-05-22 11:47:03 INFO  Log:22 - Row 2: [ATA
+Automata, $0.055, -7.41%, $32.9M, , Details
+Trade]
+2025-05-22 11:47:03 INFO  Log:22 - Checking if the value is Negative-7.41%
+2025-05-22 11:47:03 INFO  Log:22 - Row 3: [OM
+MANTRA DAO, $0.41, -3.61%, $402.1M, , Details
+Trade]
+2025-05-22 11:47:03 INFO  Log:22 - Checking if the value is Negative-3.61%
+2025-05-22 11:47:03 INFO  Log:22 - Row 4: [XNO
+Nano token, $0.98, -0.30%, $1,167M, , Details
+Trade]
+2025-05-22 11:47:03 INFO  Log:22 - Checking if the value is Negative-0.30%
+2025-05-22 11:47:03 INFO  Log:22 - Row 5: [AAVE
+Aave, $251.52, -3.38%, $3,813.3M, , Details
+Trade]
+2025-05-22 11:47:03 INFO  Log:22 - Checking if the value is Negative-3.38%
+2025-05-22 11:47:03 INFO  Log:22 - Successfully validated both headers and body rows, including negative values in 24h CHG.
+2025-05-22 11:47:03 INFO  Log:16 - =====================================validateMarketTrendLosersTableDataTest TEST END=========================================
+2025-05-22 11:47:13 INFO  Log:12 - =====================================validateMarketTrendTopTableDataTest TEST START=========================================
+2025-05-22 11:47:13 INFO  Log:22 - Scrolled to the MarketTrend Section
+2025-05-22 11:47:19 INFO  Log:22 - Table Headers:
+2025-05-22 11:47:19 INFO  Log:22 - Header Row 1: [Name, Last Price, 24h CHG, Market Cap, Market (30d), Action]
+2025-05-22 11:47:19 INFO  Log:22 - Table Body Rows:
+2025-05-22 11:47:19 INFO  Log:22 - Row 1: [BTC
+Bitcoin, $110,856.56, +3.25%, $2,204,769.6M, , Details
+Trade]
+2025-05-22 11:47:19 INFO  Log:22 - Row 2: [ETH
+Ethereum, $2,610.88, +0.89%, $315,619.3M, , Details
+Trade]
+2025-05-22 11:47:19 INFO  Log:22 - Row 3: [USDT
+TetherUS, $1, +0.00%, $151,955.4M, , ]
+2025-05-22 11:47:19 INFO  Log:22 - Row 4: [XRP
+Ripple, $2.4, +1.17%, $140,963.8M, , Details
+Trade]
+2025-05-22 11:47:19 INFO  Log:22 - Row 5: [BNB
+BNB, $681.01, +3.22%, $96,005.6M, , Details
+Trade]
+2025-05-22 11:47:19 INFO  Log:22 - Successfully validated both headers and body rows.
+2025-05-22 11:47:19 INFO  Log:16 - =====================================validateMarketTrendTopTableDataTest TEST END=========================================
+2025-05-22 11:47:50 INFO  Log:12 - =====================================verifyDetailsButtonFromTheMarketTablesActionColumnIsClickableAndOpenItInNewTabTest TEST START=========================================
+2025-05-22 11:47:54 INFO  Log:22 - An error occurred: org.openqa.selenium.ElementNotInteractableException: element not interactable: https://www.ixfi.com/currency-info/LISTA has no size and location
+  (Session info: chrome=136.0.7103.114)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [78ebe12799a54d67bc17eadd5df15d35, actions {actions=[org.openqa.selenium.interactions.Sequence@2415e4c7, org.openqa.selenium.interactions.Sequence@72ce812e]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51939}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51939/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 78ebe12799a54d67bc17eadd5df15d35
+2025-05-22 11:47:54 INFO  Log:16 - =====================================verifyDetailsButtonFromTheMarketTablesActionColumnIsClickableAndOpenItInNewTabTest TEST END=========================================
+2025-05-22 11:48:02 INFO  Log:12 - =====================================verifyDownloadButtonIsClickableUnderHamburgerMenuTest TEST START=========================================
+2025-05-22 11:48:07 INFO  Log:22 - Clicked on download button
+2025-05-22 11:48:07 INFO  Log:22 - New window tab is opened
+2025-05-22 11:48:07 INFO  Log:22 - Total Opened Tabs: 2
+2025-05-22 11:48:07 INFO  Log:22 - Switched to tab 0
+2025-05-22 11:48:07 INFO  Log:22 - Title of Tab 0: IXFI - Buy, Sell, Trade Bitcoin, Ethereum & Altcoins | Crypto Exchange
+2025-05-22 11:48:07 INFO  Log:22 - Switched to tab 1
+2025-05-22 11:48:09 INFO  Log:22 - Title of Tab 1: IXFI App – IXFI Gen 3.0 Crypto Exchange
+2025-05-22 11:48:09 INFO  Log:16 - =====================================verifyDownloadButtonIsClickableUnderHamburgerMenuTest TEST END=========================================
+2025-05-22 11:48:17 INFO  Log:12 - =====================================verifyIXFIWebPageTitleTest TEST START=========================================
+2025-05-22 11:48:17 INFO  Log:22 - Verifying the title of the landing page
+2025-05-22 11:48:17 INFO  Log:22 - Retrived the actual Title of page: IXFI - Buy, Sell, Trade Bitcoin, Ethereum & Altcoins | Crypto Exchange
+2025-05-22 11:48:17 INFO  Log:22 - Retrieved the title from properties file: IXFI - Buy, Sell, Trade Bitcoin, Ethereum & Altcoins | Crypto Exchange
+2025-05-22 11:48:17 INFO  Log:22 - Verifying both the titles are similer or not
+2025-05-22 11:48:17 INFO  Log:22 - Bot the title i.e. Actual Title:  IXFI - Buy, Sell, Trade Bitcoin, Ethereum & Altcoins | Crypto Exchange and Expected Title: IXFI - Buy, Sell, Trade Bitcoin, Ethereum & Altcoins | Crypto Exchange are matched 
+2025-05-22 11:48:17 INFO  Log:16 - =====================================verifyIXFIWebPageTitleTest TEST END=========================================
+2025-05-22 11:48:26 INFO  Log:12 - =====================================verifyLangaugeButtonIsClickableUnderHamburgerMenuAndUserIsAbleToExtractTheLanguagesAndClickOnThemTest TEST START=========================================
+2025-05-22 11:48:28 INFO  Log:22 - User is clicked on Hambergur Menu and Language Button Under it
+2025-05-22 11:48:28 INFO  Log:22 - Extracted the Languages and Language Count is: 2
+2025-05-22 11:48:28 INFO  Log:22 - Langauge: English
+2025-05-22 11:48:29 INFO  Log:22 - Clicked on Laguage button and selected English Langauge
+2025-05-22 11:48:29 INFO  Log:22 - Get the Text of selected Langauge: English
+2025-05-22 11:48:30 INFO  Log:22 - Verifying both actual and Expected Text of Selected:  Langauge
+2025-05-22 11:48:30 INFO  Log:22 - Verified the Text, Both Are Equal
+2025-05-22 11:48:30 INFO  Log:22 - Clicked On Langauge button to change the Langauge
+2025-05-22 11:48:35 INFO  Log:22 - Langauge: Română
+2025-05-22 11:48:36 INFO  Log:22 - Click on Romania Langauge button, i.e 
+2025-05-22 11:48:40 INFO  Log:22 - Extractedt Actual Text of Selected Laguage: Limbă
+2025-05-22 11:48:40 INFO  Log:22 - Verifying both are Equal or not
+2025-05-22 11:48:40 INFO  Log:22 - Verified both the Text are Matched 
+2025-05-22 11:48:41 INFO  Log:16 - =====================================verifyLangaugeButtonIsClickableUnderHamburgerMenuAndUserIsAbleToExtractTheLanguagesAndClickOnThemTest TEST END=========================================
+2025-05-22 11:48:59 INFO  Log:12 - =====================================verifyLoginButtonIsClickable TEST START=========================================
+2025-05-22 11:48:59 INFO  Log:22 - Navigating to Login button on index page
+2025-05-22 11:49:02 INFO  Log:22 - Clicked on Login button
+2025-05-22 11:49:02 INFO  Log:22 - Actual Title: Welcome To IXFI
+2025-05-22 11:49:02 INFO  Log:16 - =====================================verifyLoginButtonIsClickableTest TEST END=========================================
+2025-05-22 11:49:31 INFO  Log:12 - =====================================verifyLoginButtonIsClickableAndUserIsNavigatedToLoginPageTest TEST START=========================================
+2025-05-22 11:49:31 INFO  Log:22 - Clicked on Login button
+2025-05-22 11:49:35 INFO  Log:22 - Retrieved the login page title: Login | IXFI
+2025-05-22 11:49:35 INFO  Log:22 - Expected title: Login | IXFI
+2025-05-22 11:49:35 INFO  Log:22 - Verifying both are equal or not
+2025-05-22 11:49:35 INFO  Log:22 - Verifed both the titles. Both are matched
+2025-05-22 11:49:35 INFO  Log:16 - =====================================verifyLoginButtonIsClickableAndUserIsNavigatedToLoginPageTest TEST END=========================================
+2025-05-22 11:50:11 INFO  Log:12 - =====================================verifyPresenceOfIxfiLogoTest TEST START=========================================
+2025-05-22 11:50:11 INFO  Log:22 - Checking ixfi logo is displayed or not
+2025-05-22 11:50:11 INFO  Log:22 - Logo display status: true
+2025-05-22 11:50:11 INFO  Log:22 - Logo present on webpage and verified successfully
+2025-05-22 11:50:11 INFO  Log:16 - =====================================verifyPresenceOfIxfiLogoTest TEST END=========================================
+2025-05-22 11:50:19 INFO  Log:12 - =====================================verifySignUpButtonIsClickableTest TEST START=========================================
+2025-05-22 11:50:19 INFO  Log:22 - Navigating to the SignUp button on Index Page
+2025-05-22 11:50:20 INFO  Log:22 - Clicked on signUp Button
+2025-05-22 11:50:20 INFO  Log:16 - =====================================verifySignUpButtonIsClickableTest TEST END=========================================
+2025-05-22 11:50:27 INFO  Log:12 - =====================================verifyThatBottomSectionsDownloadAppWillOpenInNewTabTest TEST START=========================================
+2025-05-22 11:50:36 INFO  Log:22 - Clicked on both the links android and ios. opened the link in new tab
+2025-05-22 11:50:36 INFO  Log:22 - Fetched expected Titles from the list
+2025-05-22 11:50:36 INFO  Log:22 - Verifying the each page title with the expected title one by one
+2025-05-22 11:50:36 INFO  Log:22 - switched to tab0
+2025-05-22 11:50:38 INFO  Log:22 - Verifying page title: IXFI - Buy, Sell, Trade Bitcoin, Ethereum & Altcoins | Crypto Exchange
+2025-05-22 11:50:38 INFO  Log:22 - Verified 0 opened link
+2025-05-22 11:50:38 INFO  Log:22 - switched to tab1
+2025-05-22 11:50:40 INFO  Log:22 - Verifying page title: IXFI - Apps on Google Play
+2025-05-22 11:50:40 INFO  Log:22 - Verified 1 opened link
+2025-05-22 11:50:40 INFO  Log:22 - switched to tab2
+2025-05-22 11:50:42 INFO  Log:22 - Verifying page title: IXFI on the App Store
+2025-05-22 11:50:42 INFO  Log:22 - Verified 2 opened link
+2025-05-22 11:50:42 INFO  Log:22 - Verified the Bottom android and IOS App download link page title 
+2025-05-22 11:50:42 INFO  Log:16 - =====================================verifyThatBottomSectionsDownloadAppWillOpenInNewTabTest TEST END=========================================
+2025-05-22 11:50:49 INFO  Log:12 - =====================================verifyThatCurrencyButtonIsClickableUnderHamburgerMenuAndUserIsAbleToSelectTheCurrencyTest TEST START=========================================
+2025-05-22 11:50:50 INFO  Log:22 - Clicked On Hamburger Menu
+2025-05-22 11:50:50 INFO  Log:22 - Clicked On Currency Button
+2025-05-22 11:50:51 INFO  Log:22 - Extracted the Currencies Available$ USD And € EUR
+2025-05-22 11:50:51 INFO  Log:22 - Selected Currency: $ USD
+2025-05-22 11:50:51 INFO  Log:22 - Clicked On Currency: $ USD
+2025-05-22 11:50:56 INFO  Log:22 - Clicked on currency button to select another currency
+2025-05-22 11:50:57 INFO  Log:22 - Selected Currency: € EUR
+2025-05-22 11:50:57 INFO  Log:22 - Clicked On Currency: € EUR
+2025-05-22 11:51:02 INFO  Log:22 - Clicked on currency button to select another currency
+2025-05-22 11:51:02 INFO  Log:16 - =====================================verifyThatCurrencyButtonIsClickableUnderHamburgerMenuAndUserIsAbleToSelectTheCurrencyTest TEST END=========================================
+2025-05-22 11:51:09 INFO  Log:12 - =====================================verifyThatStartTradingNowButtonIsClickableAndUserIsNavigatedToTradePageTest TEST START=========================================
+2025-05-22 11:51:14 INFO  Log:22 - Trade Page Actual Title: BTCUSDC Trading and Charts | IXFI Spot Trading
+2025-05-22 11:51:14 INFO  Log:22 - TradePage Expected Title: BTCUSDT Trading and Charts | IXFI Spot Trading
+2025-05-22 11:51:21 INFO  Log:12 - =====================================verifyThatTheIXFITokenCardSectionIsVisibleTest TEST START=========================================
+2025-05-22 11:51:23 INFO  Log:22 - Scrolled to the IXFI Token Card 
+2025-05-22 11:51:23 INFO  Log:22 - Checking if the ixfi token card is displayed or not
+2025-05-22 11:51:24 INFO  Log:22 - Is banner Displayed: true
+2025-05-22 11:51:24 INFO  Log:22 - Checking if the IXFI logo displayed in IXFI Token banner
+2025-05-22 11:51:24 INFO  Log:22 - Checking if the text present in IXFI banner section is correct or not
+2025-05-22 11:51:24 INFO  Log:22 - IXFI Token title text: IXFI Token:
+2025-05-22 11:51:24 INFO  Log:22 - Title Paragraph: IXFI Token: Driving the next phase of IXFI’s evolution
+2025-05-22 11:51:24 INFO  Log:22 - IXFI Token Info: Unlock cashback, staking, and trading perks with IXFI
+2025-05-22 11:51:24 INFO  Log:16 - =====================================verifyThatTheIXFITokenCardSectionIsVisibleTest TEST END=========================================
+2025-05-22 11:51:31 INFO  Log:12 - =====================================verifyThatTopSectionsDownloadAppWillOpenInNewTabTest TEST START=========================================
+2025-05-22 11:51:33 INFO  Log:22 - Clicked on both the links android and ios. opened the link in new tab
+2025-05-22 11:51:33 INFO  Log:22 - Fetched expected Titles from the list
+2025-05-22 11:51:33 INFO  Log:22 - Verifying the each page title with the expected title one by one
+2025-05-22 11:51:33 INFO  Log:22 - switched to tab 0
+2025-05-22 11:51:35 INFO  Log:22 - Verifying page title: IXFI - Buy, Sell, Trade Bitcoin, Ethereum & Altcoins | Crypto Exchange
+2025-05-22 11:51:35 INFO  Log:22 - Verified 0 opened link
+2025-05-22 11:51:35 INFO  Log:22 - switched to tab 1
+2025-05-22 11:51:37 INFO  Log:22 - Verifying page title: IXFI - Apps on Google Play
+2025-05-22 11:51:37 INFO  Log:22 - Verified 1 opened link
+2025-05-22 11:51:37 INFO  Log:22 - switched to tab 2
+2025-05-22 11:51:39 INFO  Log:22 - Verifying page title: IXFI on the App Store
+2025-05-22 11:51:39 INFO  Log:22 - Verified 2 opened link
+2025-05-22 11:51:39 INFO  Log:22 - Verified the top android and IOS  app download page title 
+2025-05-22 11:51:39 INFO  Log:16 - =====================================verifyThatTopSectionsDownloadAppWillOpenInNewTabTest TEST END=========================================
+2025-05-22 11:51:46 INFO  Log:12 - =====================================verifyThatUserIsAbleToClickIXFIBannerLinkAndOpenItInNewTabTest TEST START=========================================
+2025-05-22 11:51:48 INFO  Log:22 - Scrolled to the IXFI Token Card 
+2025-05-22 11:51:49 INFO  Log:22 - Clicked on IXFI Token link and the link is opened in new tab
+2025-05-22 11:51:49 INFO  Log:22 - Driver switched to IXFI Token page
+2025-05-22 11:51:51 INFO  Log:22 - Actual IXFI Token Page Title: IXFI Token – IXFI Gen 3.0 Crypto Exchange
+2025-05-22 11:51:51 INFO  Log:22 - Expected IXFI Token Page Title: IXFI Token – IXFI Gen 3.0 Crypto Exchange
+2025-05-22 11:51:51 INFO  Log:22 - Titles are verified
+2025-05-22 11:51:51 INFO  Log:16 - =====================================verifyThatUserIsAbleToClickIXFIBannerLinkAndOpenItInNewTabTest TEST END=========================================
+2025-05-22 11:52:00 INFO  Log:12 - =====================================verifyThatUserIsAbleToClickOnCompleteTaskSectionAndAbleToNavigateToTheRewardsProgramTaskCenterPageTest TEST START=========================================
+2025-05-22 11:52:00 INFO  Log:22 - Scrolled upto the Complete Task Section
+2025-05-22 11:52:04 INFO  Log:22 - Clicked On Complete Task Section And Navigated to the TaskCenter Page
+2025-05-22 11:52:06 INFO  Log:22 - Retrieved the Actual TaskCenter Page Title: Complete Tasks & Earn Free Crypto | Rewards | ixfi
+2025-05-22 11:52:06 INFO  Log:22 - Expected taskCenterPage Title: Complete Tasks & Earn Free Crypto | Rewards | ixfi
+2025-05-22 11:52:06 INFO  Log:22 - Both the titles are matched
+2025-05-22 11:52:06 INFO  Log:16 - =====================================verifyThatUserIsAbleToClickOnCompleteTaskSectionAndAbleToNavigateToTheRewardsProgramTaskCenterPageTest TEST END=========================================
+2025-05-22 11:52:14 INFO  Log:12 - =====================================verifyThatUserIsAbleToClickOnGetFreeCryptoSectionAndAbleToNavigateToTheRewardsProgramPageTest TEST START=========================================
+2025-05-22 11:52:14 INFO  Log:22 - Scrolled upto the GetFreeCrypto Section
+2025-05-22 11:52:28 INFO  Log:22 - Clicked On GetFreeCrypto Section And Navigated to the Rewards Program Page
+2025-05-22 11:52:29 INFO  Log:22 - Retrieved the Actual RewardsProgram Page Title: Earn Free Crypto | IXFI Rewards
+2025-05-22 11:52:29 INFO  Log:22 - Expected RewardsProgramPage Title: Earn Free Crypto | IXFI Rewards
+2025-05-22 11:52:29 INFO  Log:22 - Both the titles are matched
+2025-05-22 11:52:29 INFO  Log:16 - =====================================verifyThatUserIsAbleToClickOnGetFreeCryptoSectionAndAbleToNavigateToTheRewardsProgramPageTest TEST END=========================================
+2025-05-22 11:52:37 INFO  Log:12 - =====================================verifyThatUserIsAbleToClickOnJoinIXFISectionAndAbleToNavigateToTheSignUpPageTest TEST START=========================================
+2025-05-22 11:52:37 INFO  Log:22 - Scrolled upto the JoinIXFI Section
+2025-05-22 11:52:41 INFO  Log:22 - Clicked On JoinIXFI Section And Navigated to the SignUpPage
+2025-05-22 11:52:41 INFO  Log:22 - Retrieved the Actual signUpPage: Register | IXFI
+2025-05-22 11:52:41 INFO  Log:22 - Expected SignUpPage Title: Register | IXFI
+2025-05-22 11:52:41 INFO  Log:22 - Both the titles are matched
+2025-05-22 11:52:41 INFO  Log:16 - =====================================verifyThatUserIsAbleToClickOnJoinIXFISectionAndAbleToNavigateToTheSignUpPageTest TEST END=========================================
+2025-05-22 11:52:48 INFO  Log:12 - =====================================verifyThatUserIsAbleToNavigateToTheEarnPlatformRewardsProgramSectionAndValidateTheParagraphOfTheSectionTest TEST START=========================================
+2025-05-22 11:52:48 INFO  Log:22 - Scrolled  upto the earnPlatform  - Use our Rewards Program to win up to $10,000 section 
+2025-05-22 11:52:48 INFO  Log:22 - Extracted the actual Paragraph of section: Title is Rewards just don’t stop coming to IXFI users. There will always be an available Airdrop or Giveaway in our community. To take part, become an IXFI member today. Here’s how:
+2025-05-22 11:52:48 INFO  Log:22 - The Expected Paragraph is: Rewards just don’t stop coming to IXFI users. There will always be an available Airdrop or Giveaway in our community. To take part, become an IXFI member today. Here’s how:
+2025-05-22 11:52:48 INFO  Log:22 - Verifying both the Paragraph is similar or not
+2025-05-22 11:52:48 INFO  Log:22 - Verified the Paragraph, Both are matched 
+2025-05-22 11:52:48 INFO  Log:16 - =====================================verifyThatUserIsAbleToNavigateToTheEarnPlatformRewardsProgramSectionAndValidateTheParagraphOfTheSectionTest TEST END=========================================
+2025-05-22 11:52:56 INFO  Log:12 - =====================================verifyThatUserIsAbleToNavigateToTheEarnPlatformRewardsProgramSectionAndValidateTheTitleOfTheSectionTest TEST START=========================================
+2025-05-22 11:52:56 INFO  Log:22 - Scrolled upto the earnPlatform  - Use our Rewards Program to win up to $10,000 section 
+2025-05-22 11:52:57 INFO  Log:22 - Extracted the actual Title of section: Title is Use our Rewards Program to win up to $10,000
+2025-05-22 11:52:57 INFO  Log:22 - The Expected Title is: Use our Rewards Program to win up to $10,000
+2025-05-22 11:52:57 INFO  Log:22 - Verifying both the title is similar or not
+2025-05-22 11:52:57 INFO  Log:22 - Verified the title, Both are matched 
+2025-05-22 11:52:57 INFO  Log:16 - =====================================verifyThatUserIsAbleToNavigateToTheEarnPlatformRewardsProgramSectionAndValidateTheTitleOfTheSectionTest TEST END=========================================
+2025-05-22 11:53:19 INFO  Log:12 - =====================================verifyThatWeeklySummaryReportSectionIsPresentAndUserIsAbleToClickOnReadMoreButtonAndOpenTheSummaryReportOnNewTabTest TEST START=========================================
+2025-05-22 11:53:49 INFO  Log:22 - Total Opened Tab: 12
+2025-05-22 11:53:49 INFO  Log:22 - switched to tab 0
+2025-05-22 11:53:51 INFO  Log:22 - Title name of Tab: 0 is IXFI - Buy, Sell, Trade Bitcoin, Ethereum & Altcoins | Crypto Exchange
+2025-05-22 11:53:51 INFO  Log:22 - switched to tab 1
+2025-05-22 11:53:53 INFO  Log:22 - Title name of Tab: 1 is Wallet Maintenance for ETH Network | IXFI Blog
+2025-05-22 11:53:53 INFO  Log:22 - switched to tab 2
+2025-05-22 11:53:55 INFO  Log:22 - Title name of Tab: 2 is IXFI adds USDC deposits on the Sonic network | IXFI Blog
+2025-05-22 11:53:55 INFO  Log:22 - switched to tab 3
+2025-05-22 11:53:57 INFO  Log:22 - Title name of Tab: 3 is Network upgrade for IOTA | IXFI Blog
+2025-05-22 11:53:57 INFO  Log:22 - switched to tab 4
+2025-05-22 11:53:59 INFO  Log:22 - Title name of Tab: 4 is Upcoming RUNE network upgrade | IXFI Blog
+2025-05-22 11:53:59 INFO  Log:22 - switched to tab 5
+2025-05-22 11:54:01 INFO  Log:22 - Title name of Tab: 5 is IXFI will support the Ethereum network upgrade & hard fork | IXFI Blog
+2025-05-22 11:54:01 INFO  Log:22 - switched to tab 6
+2025-05-22 11:54:04 INFO  Log:22 - Title name of Tab: 6 is IXFI supports the OP & MTL network upgrades & hard forks | IXFI Blog
+2025-05-22 11:54:04 INFO  Log:22 - switched to tab 7
+2025-05-22 11:54:06 INFO  Log:22 - Title name of Tab: 7 is Solana Memes On The Rise | IXFI Blog
+2025-05-22 11:54:06 INFO  Log:22 - switched to tab 8
+2025-05-22 11:54:08 INFO  Log:22 - Title name of Tab: 8 is Solana Memes On The Rise | IXFI Blog
+2025-05-22 11:54:08 INFO  Log:22 - switched to tab 9
+2025-05-22 11:54:10 INFO  Log:22 - Title name of Tab: 9 is Solana Memes On The Rise | IXFI Blog
+2025-05-22 11:54:10 INFO  Log:22 - switched to tab 10
+2025-05-22 11:54:12 INFO  Log:22 - Title name of Tab: 10 is Notice of removal of spot trading pairs | IXFI Blog
+2025-05-22 11:54:12 INFO  Log:22 - switched to tab 11
+2025-05-22 11:54:14 INFO  Log:22 - Title name of Tab: 11 is Wallet maintenance for TRX Network | IXFI Blog
+2025-05-22 11:54:14 INFO  Log:22 - Opened all the Weekly summary announcement in new tab and verified their title is not empty
+2025-05-22 11:54:14 INFO  Log:16 - =====================================verifyThatWeeklySummaryReportSectionIsPresentAndUserIsAbleToClickOnReadMoreButtonAndOpenTheSummaryReportOnNewTabTest TEST END=========================================
+2025-05-22 11:54:22 INFO  Log:12 - =====================================verifyTheDayLightModeIsChangingWhenUserClicksOnItFromDayToNightModeTest TEST START=========================================
+2025-05-22 11:54:22 INFO  Log:22 - Retrived Light mode, Status: light
+2025-05-22 11:54:22 INFO  Log:22 - Clicked On DayLightMode button
+2025-05-22 11:54:23 INFO  Log:22 - Changed to Dark Mode: Status: dark
+2025-05-22 11:54:23 INFO  Log:22 - Verified Day to night Mode
+2025-05-22 11:54:23 INFO  Log:16 - =====================================verifyTheDayLightModeIsChangingWhenUserClicksOnItFromDayToNightModeTest TEST END=========================================
+2025-05-22 11:54:30 INFO  Log:12 - =====================================verifyTheDayLightModeIsChangingWhenUserClicksOnItFromNightToDayModeTest TEST START=========================================
+2025-05-22 11:54:30 INFO  Log:22 - Retrived Light mode, status: light
+2025-05-22 11:54:30 INFO  Log:22 - Changed to night mode - clicked on dayLight Button
+2025-05-22 11:54:30 INFO  Log:22 - Status change to: dark
+2025-05-22 11:54:31 INFO  Log:22 - Clicked On DayLightMode button
+2025-05-22 11:54:31 INFO  Log:22 - Changed to Day Mode i.e. Light Mode
+2025-05-22 11:54:31 INFO  Log:22 - Verified Night to day Mode
+2025-05-22 11:54:31 INFO  Log:16 - =====================================verifyTheDayLightModeIsChangingWhenUserClicksOnItFromNightToDayModeTest TEST END=========================================
+2025-05-22 11:54:44 INFO  Log:12 - =====================================verifyThePresenceOfCryptoParaTextTest TEST START=========================================
+2025-05-22 11:54:44 INFO  Log:22 - Got the gen3.0 para text from index page: Actual Para: Buy, hold, and trade over 1185 crypto coins on a
+highly-secured and intuitive platform
+2025-05-22 11:54:44 INFO  Log:22 - Got the Expected para text of cryto exchange from property file: Expected Para: Buy, hold, and trade over 1185 crypto coins on a
+highly-secured and intuitive platform
+2025-05-22 11:54:44 INFO  Log:22 - Verified the actual and expected text and Both the text matched.
+2025-05-22 11:54:44 INFO  Log:16 - =====================================verifyThePresenceOfCryptoParaTextTest TEST END=========================================
+2025-05-22 11:54:51 INFO  Log:12 - =====================================verifyThePresenceOfGen3_0CryptoExchangeTextTest TEST START=========================================
+2025-05-22 11:54:51 INFO  Log:22 - Got the gen3.0 text from index page
+2025-05-22 11:54:51 INFO  Log:22 - Got the actual text of cryto exchange from property file
+2025-05-22 11:54:51 INFO  Log:22 - Verified the actual and expected text and Both the text matched.
+2025-05-22 11:54:51 INFO  Log:16 - =====================================verifyThePresenceOfGen3_0CryptoExchangeTextTest TEST END=========================================
+2025-05-22 11:54:58 INFO  Log:12 - =====================================verifyThePresenceOfHeaderMenuTest TEST START=========================================
+2025-05-22 11:55:00 INFO  Log:22 - Retrieved the header menu list from web
+2025-05-22 11:55:00 INFO  Log:22 - Matching Buy Crypto with Buy Crypto
+2025-05-22 11:55:00 INFO  Log:22 - Matching Markets with Markets
+2025-05-22 11:55:00 INFO  Log:22 - Matching Trade with Trade
+2025-05-22 11:55:00 INFO  Log:22 - Matching  with 
+2025-05-22 11:55:00 INFO  Log:22 - Matching  with 
+2025-05-22 11:55:00 INFO  Log:22 - Matching Rewards Program with Rewards Program
+2025-05-22 11:55:00 INFO  Log:22 - Matching  with 
+2025-05-22 11:55:00 INFO  Log:22 - Matching  with 
+2025-05-22 11:55:00 INFO  Log:22 - Matching  with 
+2025-05-22 11:55:00 INFO  Log:22 - Matching  with 
+2025-05-22 11:55:00 INFO  Log:22 - Matching  with 
+2025-05-22 11:55:01 INFO  Log:22 - Matching  with 
+2025-05-22 11:55:01 INFO  Log:22 - Matching Research with Research
+2025-05-22 11:55:01 INFO  Log:22 - Matching  with 
+2025-05-22 11:55:01 INFO  Log:22 - Matching  with 
+2025-05-22 11:55:01 INFO  Log:22 - Matching IXFI Token with IXFI Token
+2025-05-22 11:55:01 INFO  Log:22 - Verified The header menu items 
+2025-05-22 11:55:01 INFO  Log:16 - =====================================verifyThePresenceOfHeaderMenuTest TEST END=========================================
+2025-05-22 11:55:08 INFO  Log:12 - =====================================verifyThePresenceOfResearchMenuDDTest TEST START=========================================
+2025-05-22 11:55:08 INFO  Log:22 - Retrieved The actual Research DD menu List After mouse hovering on Research header menu: Found - 2
+2025-05-22 11:55:08 INFO  Log:22 - Matching Actual Coin Info
+All the infos & data you need with Expected Coin Info
+All the infos & data you need
+2025-05-22 11:55:08 INFO  Log:22 - Matching Actual News
+Read the latest crypto news with Expected News
+Read the latest crypto news
+2025-05-22 11:55:08 INFO  Log:22 - Verified the actual research menu items with the expected menu items
+2025-05-22 11:55:08 INFO  Log:16 - =====================================verifyThePresenceOfResearchMenuDDTest TEST END=========================================
+2025-05-22 11:55:15 INFO  Log:12 - =====================================verifyThePresenceOfRewardsProgramMenuDDTest TEST START=========================================
+2025-05-22 11:55:16 INFO  Log:22 - Retrieved the Rewards program DD menu List after hovering on RewardsProgram menu button; Found - 6
+2025-05-22 11:55:16 INFO  Log:22 - Matching Rewards
+Redeem & Earn free crypto With Rewards
+Redeem & Earn free crypto
+2025-05-22 11:55:16 INFO  Log:22 - Matching NFT Rewards
+Win NFTs & unique rewards With NFT Rewards
+Win NFTs & unique rewards
+2025-05-22 11:55:16 INFO  Log:22 - Matching Task Center
+Complete tasks. Earn IXFI Points With Task Center
+Complete tasks. Earn IXFI Points
+2025-05-22 11:55:16 INFO  Log:22 - Matching Airdrops
+Digital rewards for everyone With Airdrops
+Digital rewards for everyone
+2025-05-22 11:55:16 INFO  Log:22 - Matching Steps
+Walk your way into crypto! With Steps
+Walk your way into crypto!
+2025-05-22 11:55:16 INFO  Log:22 - Matching Leaderboard
+Check your ranking among users With Leaderboard
+Check your ranking among users
+2025-05-22 11:55:16 INFO  Log:22 - Verified the actual RewardsProgram menu items with the expected menu items
+2025-05-22 11:55:16 INFO  Log:16 - =====================================verifyThePresenceOfRewardsProgramMenuDDTest TEST END=========================================
+2025-05-22 11:55:24 INFO  Log:12 - =====================================verifyThePresenceOfTradeMenuDDTest TEST START=========================================
+2025-05-22 11:55:24 INFO  Log:22 - Retrieved The actual convert DD menu List After mouse hovering on Convert header menu and the number of submenu's are: 2
+2025-05-22 11:55:24 INFO  Log:22 - Actual Menu: Convert
+Convert any coin with 0% fees
+2025-05-22 11:55:24 INFO  Log:22 - Expected Menu: Convert
+Convert any coin with 0% fees
+2025-05-22 11:55:24 INFO  Log:22 - Actual Menu: Spot Trade
+Buy & Sell 350+ cryptos
+2025-05-22 11:55:24 INFO  Log:22 - Expected Menu: Spot Trade
+Buy & Sell 350+ cryptos
+2025-05-22 11:55:24 INFO  Log:22 - Verified the actual convert menu items with the expected menu items
+2025-05-22 11:55:24 INFO  Log:16 - =====================================verifyThePresenceOfTradeMenuDDTest TEST END=========================================
+2025-05-22 11:55:31 INFO  Log:12 - =====================================verifyTradeButtonFromTheMarketTablesActionColumnIsClickableAndOpenItInNewTabTest TEST START=========================================
+2025-05-22 11:55:33 ERROR Log:30 - An error occurred: org.openqa.selenium.ElementNotInteractableException: element not interactable: https://www.ixfi.com/trade/LISTA/BNB has no size and location
+  (Session info: chrome=136.0.7103.114)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c274f056cbf9370f9f3b91efffa7629b, actions {actions=[org.openqa.selenium.interactions.Sequence@36bd07ec, org.openqa.selenium.interactions.Sequence@85b9f9c]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:56505}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:56505/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c274f056cbf9370f9f3b91efffa7629b
+2025-05-22 11:55:33 INFO  Log:16 - =====================================verifyTradeButtonFromTheMarketTablesActionColumnIsClickableAndOpenItInNewTabTest TEST END=========================================
+2025-05-22 11:55:41 INFO  Log:12 - =====================================verifyUserIsAbleToClickOnAirdropsCardAndAbleToNavigateToAirdropsPageTest TEST START=========================================
+2025-05-22 11:55:44 INFO  Log:22 - Clicked on Airdrops cards
+2025-05-22 11:55:44 INFO  Log:22 - Navigated to Airdrops page and captured page title: Participate in Airdrops & Earn Crypto | Rewards | ixfi
+2025-05-22 11:55:44 INFO  Log:22 - retrived the expected titles from properties file: Participate in Airdrops & Earn Crypto | Rewards | ixfi
+2025-05-22 11:55:44 INFO  Log:22 - verified the page titles, both the titles are matched!
+2025-05-22 11:55:44 INFO  Log:16 - =====================================verifyUserIsAbleToClickOnAirdropsCardAndAbleToNavigateToAirdropsPageTest TEST END=========================================
+2025-05-22 11:55:51 INFO  Log:12 - =====================================verifyUserIsAbleToClickOnConvertFeeCardAndAbleToNavigateToConvertPageTest TEST START=========================================
+2025-05-22 11:55:57 INFO  Log:22 - Clicked on 0 %conversion fee  cards
+2025-05-22 11:55:57 INFO  Log:22 - Navigated to Convert page and captured page title: Convert 1inch (1INCH) to Bitcoin (BTC) | IXFI Convert
+2025-05-22 11:55:57 INFO  Log:22 - retrived the expected titles from properties file: Convert 1inch (1INCH) to Bitcoin (BTC) | IXFI Convert
+2025-05-22 11:55:57 INFO  Log:22 - verified the page titles, both the titles are matched!
+2025-05-22 11:55:57 INFO  Log:16 - =====================================verifyUserIsAbleToClickOnConvertFeeCardAndAbleToNavigateToConvertPageTest TEST END=========================================
+2025-05-22 11:56:04 INFO  Log:12 - =====================================verifyUserIsAbleToClickOnReferralProgramCardAndAbleToNavigateToReferralProgramPageTest TEST START=========================================
+2025-05-22 11:56:09 INFO  Log:22 - Clicked on ReferralProgram cards
+2025-05-22 11:56:09 INFO  Log:22 - Navigated to ReferralProgram page and captured page title: IXFI Referral Program | Earn Free Crypto
+2025-05-22 11:56:09 INFO  Log:22 - retrived the expected titles from properties file: IXFI Referral Program | Earn Free Crypto
+2025-05-22 11:56:09 INFO  Log:22 - verified the page titles, both the titles are matched!
+2025-05-22 11:56:09 INFO  Log:16 - =====================================verifyUserIsAbleToClickOnReferralProgramCardAndAbleToNavigateToReferralProgramPageTest TEST END=========================================
+2025-05-22 11:56:16 INFO  Log:12 - =====================================verifyUserIsAbleToClickOnRewardsCenterCardAndAbleToNavigateToRewardsPageTest TEST START=========================================
+2025-05-22 11:56:19 INFO  Log:22 - Clicked on rewads center cards
+2025-05-22 11:56:19 INFO  Log:22 - Navigated to rewards program page and captured page title: Earn Free Crypto | IXFI Rewards
+2025-05-22 11:56:19 INFO  Log:22 - retrived the expected titles from properties file: Earn Free Crypto | IXFI Rewards
+2025-05-22 11:56:19 INFO  Log:22 - verified the page titles, both the titles are matched!
+2025-05-22 11:56:19 INFO  Log:16 - =====================================verifyUserIsAbleToClickOnRewardsCenterCardAndAbleToNavigateToRewardsPageTest TEST END=========================================
+2025-05-22 11:56:26 INFO  Log:12 - =====================================verifyCreateAccountButtonRemainsDisabledUntilTermsAndConditionsAcceptanceTest TEST START=========================================
+2025-05-22 11:56:27 INFO  Log:22 - Clicked on Signup button
+2025-05-22 11:56:28 INFO  Log:22 - Veried that create account button is clicked
+2025-05-22 11:56:28 INFO  Log:16 - =====================================verifyCreateAccountButtonRemainsDisabledUntilTermsAndConditionsAcceptanceTest TEST END=========================================
+2025-05-22 11:56:36 INFO  Log:12 - =====================================verifyCreateAccountByEmailFunctionalityTest TEST START=========================================
+2025-05-22 11:56:38 INFO  Log:22 - clicked On SignUp Button
+2025-05-22 11:56:39 INFO  Log:22 - Clicked on Email button on signup page
+2025-05-22 11:56:40 INFO  Log:22 - Entered email in the email field: ram.c+07@byteosphere.com
+2025-05-22 11:56:40 INFO  Log:22 - Entered the password in the password field
+2025-05-22 11:56:41 INFO  Log:22 - Entered the confirm password in the password field
+2025-05-22 11:56:41 INFO  Log:22 - Entered the username in the username fieldusernew
+2025-05-22 11:56:41 INFO  Log:22 - Scrolled the page to Create Account button
+2025-05-22 11:56:42 INFO  Log:22 - Entered the referral code in referral field
+2025-05-22 11:56:42 INFO  Log:22 - Clicked on pramotional email checkbox
+2025-05-22 11:56:42 INFO  Log:22 - Clicked on Terms and Conditions checkbox 
+2025-05-22 11:56:42 INFO  Log:22 - Clicked on Create Account button
+2025-05-22 11:56:47 INFO  Log:22 - Entered all the details in signup form - SignUp by email
+2025-05-22 11:56:47 INFO  Log:16 - =====================================verifyCreateAccountByEmailFunctionalityTest TEST END=========================================
+2025-05-22 11:56:55 INFO  Log:12 - =====================================verifyCreateAccountByPhoneFunctionalityTest TEST START=========================================
+2025-05-22 11:56:55 INFO  Log:22 - Clicked on signup button
+2025-05-22 11:56:57 INFO  Log:22 - Clicked on Phone tab
+2025-05-22 11:56:57 INFO  Log:22 - Warning card displayed
+2025-05-22 11:56:57 INFO  Log:16 - =====================================verifyCreateAccountByPhoneFunctionalityTest TEST END=========================================
+2025-05-22 11:57:06 INFO  Log:12 - =====================================verifyThatEyeButtonIsClickableAndBothPasswordIsCorrectTest TEST START=========================================
+2025-05-22 11:57:07 INFO  Log:22 - Clicked on register button
+2025-05-22 11:57:08 INFO  Log:22 - Clicked on Email button on signup page
+2025-05-22 11:57:08 INFO  Log:22 - Entered email in the email field: ram.c+07@byteosphere.com
+2025-05-22 11:57:09 INFO  Log:22 - Entered the password in the password field
+2025-05-22 11:57:09 INFO  Log:22 - Entered the confirm password in the password field
+2025-05-22 11:57:09 INFO  Log:22 - Entered the username in the username fieldusernew
+2025-05-22 11:57:09 INFO  Log:22 - Scrolled the page to Create Account button
+2025-05-22 11:57:10 INFO  Log:22 - Entered the referral code in referral field
+2025-05-22 11:57:10 INFO  Log:22 - Clicked on pramotional email checkbox
+2025-05-22 11:57:10 INFO  Log:22 - Clicked on Terms and Conditions checkbox 
+2025-05-22 11:57:10 INFO  Log:22 - Entered all the details
+2025-05-22 11:57:12 INFO  Log:22 - Before clicking on eye icon on password field: the attribute src is:https://cdn.ixfi.com/shared/eye-off.svg
+2025-05-22 11:57:12 INFO  Log:22 - Clicked on password eye image to see the entered password
+2025-05-22 11:57:12 INFO  Log:22 - After clicking on eye icon on password field: the attribute src is:https://cdn.ixfi.com/shared/eye.svg
+2025-05-22 11:57:12 INFO  Log:22 - Retrieved Password is: Test@1234
+2025-05-22 11:57:13 INFO  Log:22 - Before clicking on confirm password eye button: src: https://cdn.ixfi.com/shared/eye-off.svg
+2025-05-22 11:57:13 INFO  Log:22 - Clicked on confirm password eye image to see the entered confirm password 
+2025-05-22 11:57:13 INFO  Log:22 - After clicking on confirm password eye button: src: https://cdn.ixfi.com/shared/eye.svg
+2025-05-22 11:57:13 INFO  Log:22 - Retrieved Confrim Password is: Test@1234
+2025-05-22 11:57:13 INFO  Log:16 - =====================================verifyThatEyeButtonIsClickableAndBothPasswordIsCorrectTest TEST END=========================================
+2025-05-22 11:57:20 INFO  Log:12 - =====================================verifyThatTheDayLightButtonIsClickableAndAbleToChangeTheDarkAndLightModeTest TEST START=========================================
+2025-05-22 11:57:21 INFO  Log:22 - Clicked on Register button
+2025-05-22 11:57:25 INFO  Log:22 - Retrieved the dayLigh mode before clicking on it:  https://cdn.ixfi.com/shared/sun.webp
+2025-05-22 11:57:25 INFO  Log:22 - Clicked on DayLight Button
+2025-05-22 11:57:29 INFO  Log:22 - Retrieved the mode after clicking on daylight mode button: https://cdn.ixfi.com/shared/dark-icon.svg
+2025-05-22 11:57:29 INFO  Log:16 - =====================================verifyThatTheDayLightButtonIsClickableAndAbleToChangeTheDarkAndLightModeTest TEST END=========================================
+2025-05-22 11:57:43 INFO  Log:12 - =====================================verifyThatUserIsNavigatedToLoginPageAfterClickinOnLoginLinkPresentOnSignUpPageTest TEST START=========================================
+2025-05-22 11:57:44 INFO  Log:22 - Clicked on SignUp Button
+2025-05-22 11:57:44 INFO  Log:22 - Clicked on Login Link present on signup page
+2025-05-22 11:57:49 INFO  Log:22 - User is clicked on Login Page URL
+2025-05-22 11:57:49 INFO  Log:22 - URL is retrived
+2025-05-22 11:57:49 INFO  Log:22 - Retreievd both actual and expected url and matched
+2025-05-22 11:57:49 INFO  Log:16 - =====================================verifyThatUserIsNavigatedToLoginPageAfterClickinOnLoginLinkPresentOnSignUpPageTest TEST END=========================================
+2025-05-22 11:57:56 INFO  Log:12 - =====================================verifyThatUserIsNavigatedToSignUpPageAfterClickingOnRegisterButtonTest TEST START=========================================
+2025-05-22 11:57:56 INFO  Log:22 - Clicked on signup button
+2025-05-22 11:57:57 INFO  Log:22 - Retrieved the Actual URL from website: https://www.ixfi.com/auth/signup
+2025-05-22 11:57:57 INFO  Log:22 - Retrieved the expected title from properties file: https://www.ixfi.com/auth/signup
+2025-05-22 11:57:57 INFO  Log:22 - Both the titles are matched 
+2025-05-22 11:57:57 INFO  Log:16 - =====================================verifyThatUserIsNavigatedToSignUpPageAfterClickingOnRegisterButtonTest TEST END=========================================
+2025-05-22 11:58:04 INFO  Log:12 - =====================================verifyThatWhenUserEntersWrongInputsWhileSignUpWithEmailItShowsProperValidationMessageTest TEST START=========================================
+2025-05-22 11:58:05 INFO  Log:22 - Clicked on Register button
+2025-05-22 11:58:06 INFO  Log:22 - Clicked on email tab
+2025-05-22 11:58:06 INFO  Log:22 - Entered email id
+2025-05-22 11:58:06 INFO  Log:22 - Verifying Whether entered email is as per validation rule or not
+2025-05-22 11:58:06 INFO  Log:22 - Verified Email ID validation rule
+2025-05-22 11:58:06 INFO  Log:22 - Entered password
+2025-05-22 11:58:06 INFO  Log:22 - Verifying Whether entered password is as per validation rule or not
+2025-05-22 11:58:06 INFO  Log:22 - Verified password validation rule
+2025-05-22 11:58:07 INFO  Log:22 - Entered Confirm password
+2025-05-22 11:58:07 INFO  Log:22 - Verifying Whether entered confirm password is correct or not
+2025-05-22 11:58:07 INFO  Log:22 - Verified Confirm password validation rule
+2025-05-22 11:58:07 INFO  Log:22 - Entered username
+2025-05-22 11:58:07 INFO  Log:22 - Verifying Whether entered username is as per validation rule or not
+2025-05-22 11:58:07 INFO  Log:22 - Verified username validation rule
+2025-05-22 11:58:07 INFO  Log:16 - =====================================verifyThatWhenUserEntersWrongInputsWhileSignUpWithEmailItShowsProperValidationMessageTest TEST END=========================================
+2025-05-22 11:58:14 INFO  Log:12 - =====================================verifyThatWhenUserEntersWrongInputsWhileSignUpWithPhoneNumberItShowsProperValidationMessageTest TEST START=========================================
+2025-05-22 11:58:15 INFO  Log:22 - Clicked on Register button
+2025-05-22 11:58:16 INFO  Log:22 - Clicked on Phone tab
+2025-05-22 11:58:16 INFO  Log:22 - Warning card displayed
+2025-05-22 11:58:16 INFO  Log:16 - =====================================verifyThatWhenUserEntersWrongInputsWhileSignUpWithPhoneNumberItShowsProperValidationMessageTest TEST END=========================================
+2025-05-22 11:58:23 INFO  Log:12 - =====================================verifyUserIsNavigatedBackToTheHomePageByClickingOnIxfiLogoTest TEST START=========================================
+2025-05-22 11:58:23 INFO  Log:22 - Clicked on Register button
+2025-05-22 11:58:24 INFO  Log:22 - Clicked on IXFI Logo
+2025-05-22 11:58:30 INFO  Log:22 - Clicked on Yes Button
+2025-05-22 11:58:33 INFO  Log:22 - Retrieved the title of homepage: IXFI - Buy, Sell, Trade Bitcoin, Ethereum & Altcoins | Crypto Exchange
+2025-05-22 11:58:33 INFO  Log:16 - =====================================verifyUserIsNavigatedBackToTheHomePageByClickingOnIxfiLogoTest TEST END=========================================
+2025-05-22 11:59:02 INFO  Log:12 - =====================================verifyUserIsNotNavigatedBackToTheHomePageByClickingOnIxfiLogoAndNoOnPopupTest TEST START=========================================
+2025-05-22 11:59:02 INFO  Log:22 - Clicked on Register button
+2025-05-22 11:59:03 INFO  Log:22 - Clicked on IXFI Logo
+2025-05-22 11:59:07 INFO  Log:22 - Clicked on No Button
+2025-05-22 11:59:07 INFO  Log:22 - Retrieved the title of SignUpPage: Register | IXFI
+2025-05-22 11:59:07 INFO  Log:16 - =====================================verifyUserIsNotNavigatedBackToTheHomePageByClickingOnIxfiLogoAndNoOnPopupTest TEST END=========================================
+2025-05-22 11:59:14 INFO  Log:12 - =====================================verifyLoginByEmailFunctionalityTest TEST START=========================================
+2025-05-22 11:59:14 INFO  Log:22 - Clicked on login button
+2025-05-22 11:59:45 INFO  Log:12 - =====================================verifyLoginByPhoneNumberFunctionalityTest TEST START=========================================
+2025-05-22 11:59:45 INFO  Log:22 - Clicked on login button 
+2025-05-22 11:59:46 INFO  Log:22 - Clicked on phone button
+2025-05-22 12:00:27 INFO  Log:22 - Entered phone number: 9359032001 and Password into the textfield and clicked on login button
+2025-05-22 12:00:27 INFO  Log:16 - =====================================verifyLoginByPhoneNumberFunctionalityTest TEST END=========================================
+2025-05-22 12:00:33 INFO  Log:12 - =====================================verifyThatByClickingOnIXFILogoAndNotAcceptingThePopUPTheUserIsNotNavigatedBackToTheIndexPage TEST START=========================================
+2025-05-22 12:00:33 INFO  Log:22 - Clicked on Login Button
+2025-05-22 12:00:34 INFO  Log:22 - Clicked on IXFI Logo
+2025-05-22 12:00:38 INFO  Log:22 - Clicked on No button from popup
+2025-05-22 12:00:38 INFO  Log:22 - Retrieved the title of Login page: Login | IXFI
+2025-05-22 12:00:38 INFO  Log:16 - =====================================verifyThatByClickingOnIXFILogoAndNotAcceptingThePopUPTheUserIsNotNavigatedBackToTheIndexPage TEST END=========================================
+2025-05-22 12:00:44 INFO  Log:12 - =====================================verifyThatByClickingOnIXFILogoTheUserIsNavigatedBackToTheIndexPageTest TEST START=========================================
+2025-05-22 12:00:45 INFO  Log:22 - Clicked on Login Button
+2025-05-22 12:00:45 INFO  Log:22 - Clicked on IXFI Logo
+2025-05-22 12:00:50 INFO  Log:22 - Clicked on Yes button from popup
+2025-05-22 12:00:50 INFO  Log:22 - Retrieved the title of index page: IXFI - Buy, Sell, Trade Bitcoin, Ethereum & Altcoins | Crypto Exchange
+2025-05-22 12:00:50 INFO  Log:16 - =====================================verifyThatByClickingOnIXFILogoTheUserIsNavigatedBackToTheIndexPageTest TEST END=========================================
+2025-05-22 12:00:56 INFO  Log:12 - =====================================verifyThatTheDayLightButtonIsClickableAndAbleToChangeTheDarkAndLightModeTest TEST START=========================================
+2025-05-22 12:00:57 INFO  Log:22 - Clicked on Login button
+2025-05-22 12:01:01 INFO  Log:22 - Retrieved the dayLigh mode before clicking on it:  https://cdn.ixfi.com/shared/sun.webp
+2025-05-22 12:01:01 INFO  Log:22 - Clicked on DayLight Button
+2025-05-22 12:01:05 INFO  Log:22 - Retrieved the mode after clicking on daylight mode button: https://cdn.ixfi.com/shared/dark-icon.svg
+2025-05-22 12:01:05 INFO  Log:16 - =====================================verifyThatTheDayLightButtonIsClickableAndAbleToChangeTheDarkAndLightModeTest TEST END=========================================
+2025-05-22 12:01:11 INFO  Log:12 - =====================================verifyThatUserIsAbleToClickOnDownloadButtonPresentOnTopTest TEST START=========================================
+2025-05-22 12:01:11 INFO  Log:22 - Clicked on login button
+2025-05-22 12:01:15 INFO  Log:22 - Clicked on Download Icon
+2025-05-22 12:01:15 INFO  Log:22 - Retrieved the QR TextScan &
+Download the App
+2025-05-22 12:01:15 INFO  Log:16 - =====================================verifyThatUserIsAbleToClickOnDownloadButtonPresentOnTopTest TEST END=========================================
+2025-05-22 12:01:22 INFO  Log:12 - =====================================verifyThatUserIsAbleToClickOnEyeIconAndGrabTheTextOfPasswordTest TEST START=========================================
+2025-05-22 12:01:22 INFO  Log:22 - Clicked on login button
+2025-05-22 12:01:23 INFO  Log:22 - Clicked on eye button
+2025-05-22 12:01:23 INFO  Log:22 - Retrieved the eye button property after clicking on it: src- https://cdn.ixfi.com/shared/eye.svg
+2025-05-22 12:01:23 INFO  Log:22 - Verifying that src must containt eye.svg, that is password is visible after clicking on it
+2025-05-22 12:01:23 INFO  Log:22 - Verified. 
+ Again clicking on eye button
+2025-05-22 12:01:26 INFO  Log:22 - Getting the property of eye button it must be off
+2025-05-22 12:01:26 INFO  Log:22 - Retrieved the eye button src property before clicking on it: Src - https://cdn.ixfi.com/shared/eye-off.svg
+2025-05-22 12:01:26 INFO  Log:22 - Verifying that src must containt eye-off.svg, that is password is invisible
+2025-05-22 12:01:26 INFO  Log:22 - Verified
+2025-05-22 12:01:26 INFO  Log:16 - =====================================verifyThatUserIsAbleToClickOnEyeIconAndGrabTheTextOfPasswordTest TEST END=========================================
+2025-05-22 12:01:32 INFO  Log:12 - =====================================verifyThatUserIsNavigatedToLoginPage TEST START=========================================
+2025-05-22 12:01:32 INFO  Log:22 - User is clicked on login button
+2025-05-22 12:01:33 INFO  Log:22 - User is clicked on Login Page URL
+2025-05-22 12:01:33 INFO  Log:22 - URL is retrived
+2025-05-22 12:01:33 INFO  Log:22 - User retrived the Actual URL
+2025-05-22 12:01:33 INFO  Log:22 - User Retrived the Expected URL
+2025-05-22 12:01:33 INFO  Log:22 - Verifying the actual and expected URL, if both are same or not
+2025-05-22 12:01:33 INFO  Log:22 - Acutal and expected URL is same
+2025-05-22 12:01:33 INFO  Log:16 - =====================================verifyThatUserIsNavigatedToLoginPage TEST END=========================================
+2025-05-22 12:01:39 INFO  Log:12 - =====================================verifyThatUserIsNavigatedToSignUpPageByClickingSingUpNowLinkTest TEST START=========================================
+2025-05-22 12:01:40 INFO  Log:22 - Clicked on login button
+2025-05-22 12:01:40 INFO  Log:22 - Clicked on signUpNow link 
+2025-05-22 12:01:40 INFO  Log:22 - Verified that user is navigated to signup page from login page by clicking on singup link
+2025-05-22 12:01:40 INFO  Log:16 - =====================================verifyThatUserIsNavigatedToSignUpPageByClickingSingUpNowLinkTest TEST END=========================================
+2025-05-22 12:01:47 INFO  Log:12 - =====================================verifyThatUserIsNotAbleToLoginByInvalidEmailAndPasswordTest TEST START=========================================
+2025-05-22 12:01:57 INFO  Log:22 - Alert Message: no such alert
+  (Session info: chrome=136.0.7103.114)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3b382361a85e4e9a156a25a3feae3483, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\Dell\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60471}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60471/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3b382361a85e4e9a156a25a3feae3483
+2025-05-22 12:01:57 INFO  Log:16 - =====================================verifyThatUserIsNotAbleToLoginByInvalidEmailAndPasswordTest TEST END=========================================
+2025-05-22 12:02:05 INFO  Log:12 - =====================================verifyUserIsAbleToClickOnForgotPasswordLinkAndForgotPasswordPageTitleTest TEST START=========================================
+2025-05-22 12:02:06 INFO  Log:22 - Clicked on login Button
+2025-05-22 12:02:07 INFO  Log:22 - Clicked On Forgot Password Link
+2025-05-22 12:02:07 INFO  Log:22 - User is navigated to forgot password page
+2025-05-22 12:02:07 INFO  Log:22 - Retrieved actual title: Reset Password | IXFI
+2025-05-22 12:02:07 INFO  Log:16 - =====================================verifyUserIsAbleToClickOnForgotPasswordLinkAndForgotPasswordPageTitleTest TEST END=========================================
+2025-05-22 12:02:16 INFO  Log:12 - =====================================verifyPasswordResetLinkIsSentOnTheRegisteredEmailIDTest TEST START=========================================
+2025-05-22 12:02:16 INFO  Log:22 - Clicked on login button
+2025-05-22 12:02:18 INFO  Log:22 - Clicked on email button section
+2025-05-22 12:02:20 INFO  Log:22 - Clicked on ForgotPassword Link
+2025-05-22 12:02:20 INFO  Log:22 - Enter valid email ID
+2025-05-22 12:02:20 INFO  Log:22 - Clicked On Submit button
+2025-05-22 12:02:20 INFO  Log:22 - Validate captcha slider Manually
+2025-05-22 12:02:25 INFO  Log:22 - navigated to the gmail in new tab
+2025-05-22 12:02:27 INFO  Log:22 - Driver control passed to the gmail tab
+2025-05-22 12:02:31 INFO  Log:22 - Entered Valid username and password for login
+2025-05-22 12:03:31 INFO  Log:12 - =====================================verifyThatUserIsAbleToClickOnLoginLinkAndNavigatedToLoginPageFromPhoneForgotPasswordPageTest TEST START=========================================
+2025-05-22 12:03:33 INFO  Log:22 - Clicked on login button
+2025-05-22 12:03:34 INFO  Log:22 - Clicked on email button section
+2025-05-22 12:03:34 INFO  Log:22 - Clicked on ForgotPassword Link
+2025-05-22 12:03:35 INFO  Log:22 - Clicked on click here link to send the reset link on phone number
+2025-05-22 12:03:35 INFO  Log:22 - Clicked on login link
+2025-05-22 12:03:35 INFO  Log:22 - Verifying the page title of login page: Login | IXFI
+2025-05-22 12:03:39 INFO  Log:22 - Verified the page titles
+2025-05-22 12:03:39 INFO  Log:16 - =====================================verifyThatUserIsAbleToClickOnLoginLinkAndNavigatedToLoginPageFromPhoneForgotPasswordPageTest TEST END=========================================
+2025-05-22 12:03:55 INFO  Log:12 - =====================================verifyThatUserIsAbleToSendTheResetLinkByClickingOnClickHereLinkOnPhoneTabTest TEST START=========================================
+2025-05-22 12:03:56 INFO  Log:22 - Clicked on login button
+2025-05-22 12:03:58 INFO  Log:22 - Clicked on phone button section
+2025-05-22 12:03:59 INFO  Log:22 - Clicked on ForgotPassword Link
+2025-05-22 12:03:59 INFO  Log:22 - Clicked on click here link to send the reset link on phone number
+2025-05-22 12:04:00 INFO  Log:22 - Clicked on click here link to send the reset link on Email
+2025-05-22 12:04:03 INFO  Log:16 - =====================================verifyThatUserIsAbleToSendTheResetLinkByClickingOnClickHereLinkOnPhoneTabTest TEST END=========================================
+2025-05-22 12:04:18 INFO  Log:12 - =====================================verifyThatUserIsAbleToSendTheResetPasswordLinkOnRegisteredPhoneNumberTest TEST START=========================================
+2025-05-22 12:04:19 INFO  Log:22 - Clicked on login button
+2025-05-22 12:04:20 INFO  Log:22 - Clicked on email button section
+2025-05-22 12:04:22 INFO  Log:22 - Clicked on ForgotPassword Link
+2025-05-22 12:04:23 INFO  Log:22 - Clicked on click here link to send the reset link on phone number
+2025-05-22 12:04:23 INFO  Log:22 - Entered registered phone number
+2025-05-22 12:04:24 INFO  Log:22 - Clicked On Submit button
+2025-05-22 12:04:24 INFO  Log:22 - Slide the captcha manually
+2025-05-22 12:04:29 INFO  Log:22 - Reset password link sent you the registered phone number successfully
+2025-05-22 12:04:29 INFO  Log:16 - =====================================verifyThatUserIsAbleToSendTheResetPasswordLinkOnRegisteredPhoneNumberTest TEST END=========================================
+2025-05-22 12:04:43 INFO  Log:12 - =====================================verifyUserIsAbleToClickOnForgotPasswordLinkTest TEST START=========================================
+2025-05-22 12:04:45 INFO  Log:22 - Clicked on login button
+2025-05-22 12:04:46 INFO  Log:22 - Clicked on email button section
+2025-05-22 12:04:48 INFO  Log:22 - Clicked on ForgotPassword Link
+2025-05-22 12:04:48 INFO  Log:22 - Retrieved the actual title: Reset Password | IXFI
+2025-05-22 12:04:48 INFO  Log:22 - Verified forgot password page title
+2025-05-22 12:04:48 INFO  Log:16 - =====================================verifyUserIsAbleToClickOnForgotPasswordLinkTest TEST END=========================================
+2025-05-22 12:05:01 INFO  Log:12 - =====================================verifyUserIsAbleToNavigateBackToTheIndexPageFromForgotPasswordPageTest TEST START=========================================
+2025-05-22 12:05:02 INFO  Log:22 - Clicked on login button
+2025-05-22 12:05:04 INFO  Log:22 - Clicked on email button section
+2025-05-22 12:05:04 INFO  Log:22 - Clicked on ForgotPassword Link
+2025-05-22 12:05:05 INFO  Log:22 - Clicked on IXFI Logo
+2025-05-22 12:05:05 INFO  Log:22 - Captured Index page title: IXFI - Buy, Sell, Trade Bitcoin, Ethereum & Altcoins | Crypto Exchange
+2025-05-22 12:05:05 INFO  Log:22 - Verified the page titles
+2025-05-22 12:05:05 INFO  Log:16 - =====================================verifyUserIsAbleToNavigateBackToTheIndexPageFromForgotPasswordPageTest TEST END=========================================
+2025-05-22 12:05:17 INFO  Log:12 - =====================================verifyWhenUserClickOnLoginLinkItWillNavigatedToTheLoginPageTest TEST START=========================================
+2025-05-22 12:05:18 INFO  Log:22 - Clicked on login button
+2025-05-22 12:05:19 INFO  Log:22 - Clicked on email button section
+2025-05-22 12:05:20 INFO  Log:22 - Clicked on ForgotPassword Link
+2025-05-22 12:05:21 INFO  Log:22 - Clicked on login link
+2025-05-22 12:05:21 INFO  Log:22 - Verifying the page title of login page: Login | IXFI
+2025-05-22 12:05:22 INFO  Log:22 - Verified the page titles
+2025-05-22 12:05:22 INFO  Log:16 - =====================================verifyWhenUserClickOnLoginLinkItWillNavigatedToTheLoginPageTest TEST END=========================================
+2025-05-22 12:05:41 INFO  Log:12 - =====================================verifyTheAppleStoreLinkIsPresentAndClickableTest TEST START=========================================
+2025-05-22 12:05:42 INFO  Log:22 - Scrolled to the footer section
+2025-05-22 12:05:45 INFO  Log:22 - Clicked on App store link
+2025-05-22 12:05:45 INFO  Log:22 - Total Opened Tabs: 2
+2025-05-22 12:05:45 INFO  Log:22 - Switched to tab 0
+2025-05-22 12:05:45 INFO  Log:22 - Title of Tab 0: IXFI - Buy, Sell, Trade Bitcoin, Ethereum & Altcoins | Crypto Exchange
+2025-05-22 12:05:46 INFO  Log:22 - Switched to tab 1
+2025-05-22 12:05:47 INFO  Log:22 - Title of Tab 1: ‎IXFI on the App Store
+2025-05-22 12:05:47 INFO  Log:16 - =====================================verifyTheAppleStoreLinkIsPresentAndClickableTest TEST END=========================================
+2025-05-22 12:06:00 INFO  Log:12 - =====================================verifyTheFooterLinksPresentAndAbleToOpenInNewTabTest TEST START=========================================
+2025-05-22 12:06:00 INFO  Log:22 - Scrolled to the footer section
+2025-05-22 12:06:43 INFO  Log:22 - Total Opened Tabs: 17
+2025-05-22 12:06:44 INFO  Log:22 - Switched to tab 0
+2025-05-22 12:06:44 INFO  Log:22 - Title of Tab 0: IXFI - Buy, Sell, Trade Bitcoin, Ethereum & Altcoins | Crypto Exchange
+2025-05-22 12:06:44 INFO  Log:22 - Switched to tab 1
+2025-05-22 12:06:49 INFO  Log:22 - Title of Tab 1: Rewards T&C
+2025-05-22 12:06:49 INFO  Log:22 - Switched to tab 2
+2025-05-22 12:06:52 INFO  Log:22 - Title of Tab 2: IXFI Privacy Policy | Data Security & Compliance
+2025-05-22 12:06:52 INFO  Log:22 - Switched to tab 3
+2025-05-22 12:06:52 INFO  Log:22 - Title of Tab 3: Status | ixfi
+2025-05-22 12:06:52 INFO  Log:22 - Switched to tab 4
+2025-05-22 12:06:55 INFO  Log:22 - Title of Tab 4: Cookies Policy | IXFI
+2025-05-22 12:06:55 INFO  Log:22 - Switched to tab 5
+2025-05-22 12:06:55 INFO  Log:22 - Title of Tab 5: IXFI App – IXFI Gen 3.0 Crypto Exchange
+2025-05-22 12:06:55 INFO  Log:22 - Switched to tab 6
+2025-05-22 12:06:58 INFO  Log:22 - Title of Tab 6: IXFI Fee Structure | Crypto Trading Fees
+2025-05-22 12:06:59 INFO  Log:22 - Switched to tab 7
+2025-05-22 12:06:59 INFO  Log:22 - Title of Tab 7: IXFI Blog - Latest crypto articles and news
+2025-05-22 12:06:59 INFO  Log:22 - Switched to tab 8
+2025-05-22 12:07:00 INFO  Log:22 - Title of Tab 8: Cryptocurrency News & Market Updates | IXFI
+2025-05-22 12:07:00 INFO  Log:22 - Switched to tab 9
+2025-05-22 12:07:00 INFO  Log:22 - Title of Tab 9: Partners – IXFI Gen 3.0 Crypto Exchange
+2025-05-22 12:07:00 INFO  Log:22 - Switched to tab 10
+2025-05-22 12:07:00 INFO  Log:22 - Title of Tab 10: About. – IXFI Gen 3.0 Crypto Exchange
+2025-05-22 12:07:00 INFO  Log:22 - Switched to tab 11
+2025-05-22 12:07:01 INFO  Log:22 - Title of Tab 11: IXFI Support Center | Contact Us
+2025-05-22 12:07:01 INFO  Log:22 - Switched to tab 12
+2025-05-22 12:07:02 INFO  Log:22 - Title of Tab 12: IXFI Terms and Conditions | Legal Information
+2025-05-22 12:07:02 INFO  Log:22 - Switched to tab 13
+2025-05-22 12:07:02 INFO  Log:22 - Title of Tab 13: IXFI Referral Program | Earn Free Crypto
+2025-05-22 12:07:02 INFO  Log:22 - Switched to tab 14
+2025-05-22 12:07:02 INFO  Log:22 - Title of Tab 14: Our Manifesto | IXFI
+2025-05-22 12:07:02 INFO  Log:22 - Switched to tab 15
+2025-05-22 12:07:03 INFO  Log:22 - Title of Tab 15: IXFI Help Center | Your Guide to Crypto Trading and Support
+2025-05-22 12:07:03 INFO  Log:22 - Switched to tab 16
+2025-05-22 12:07:03 INFO  Log:22 - Title of Tab 16: IXFI Team – IXFI Gen 3.0 Crypto Exchange
+2025-05-22 12:07:03 INFO  Log:16 - =====================================verifyTheFooterLinksPresentAndAbleToOpenInNewTabTest TEST END=========================================
+2025-05-22 12:07:16 INFO  Log:12 - =====================================verifyThePlayStoreLinkIsPresentAndClickableTest TEST START=========================================
+2025-05-22 12:07:16 INFO  Log:22 - Scrolled to the footer section
+2025-05-22 12:07:19 INFO  Log:22 - Clicked on play store link
+2025-05-22 12:07:19 INFO  Log:22 - Total Opened Tabs: 2
+2025-05-22 12:07:19 INFO  Log:22 - Switched to tab 0
+2025-05-22 12:07:19 INFO  Log:22 - Title of Tab 0: IXFI - Buy, Sell, Trade Bitcoin, Ethereum & Altcoins | Crypto Exchange
+2025-05-22 12:07:19 INFO  Log:22 - Switched to tab 1
+2025-05-22 12:07:21 INFO  Log:22 - Title of Tab 1: IXFI - Apps on Google Play
+2025-05-22 12:07:21 INFO  Log:16 - =====================================verifyThePlayStoreLinkIsPresentAndClickableTest TEST END=========================================
+2025-05-22 12:07:32 INFO  Log:12 - =====================================verifyThePresenceOfIXFILogoTest TEST START=========================================
+2025-05-22 12:07:37 INFO  Log:22 - Navigated to footer section
+2025-05-22 12:07:37 INFO  Log:22 - Scrolled to the IXFI Logo
+2025-05-22 12:07:37 INFO  Log:22 - Verified the presence of IXFI Logo
+2025-05-22 12:07:37 INFO  Log:16 - =====================================verifyThePresenceOfIXFILogoTest TEST END=========================================
+2025-05-22 12:07:48 INFO  Log:12 - =====================================verifyTheSocialMediaFooterLinksPresentAndAbleToOpenInNewTabTest TEST START=========================================
+2025-05-22 12:07:48 INFO  Log:22 - Scrolled to the footer section
+2025-05-22 12:08:02 INFO  Log:22 - Total Opened Tabs: 12
+2025-05-22 12:08:02 INFO  Log:22 - Switched to tab 0
+2025-05-22 12:08:02 INFO  Log:22 - Title of Tab 0: IXFI - Buy, Sell, Trade Bitcoin, Ethereum & Altcoins | Crypto Exchange
+2025-05-22 12:08:02 INFO  Log:22 - Switched to tab 1
+2025-05-22 12:08:11 INFO  Log:22 - Title of Tab 1: Discord
+2025-05-22 12:08:11 INFO  Log:22 - Switched to tab 2
+2025-05-22 12:08:11 INFO  Log:22 - Title of Tab 2: Telegram: View @ixfiexchange
+2025-05-22 12:08:11 INFO  Log:22 - Switched to tab 3
+2025-05-22 12:08:14 INFO  Log:22 - Title of Tab 3: IXFI Exchange – Medium
+2025-05-22 12:08:14 INFO  Log:22 - Switched to tab 4
+2025-05-22 12:08:15 INFO  Log:22 - Title of Tab 4: Follow The IXFI Gen3.0 Exchange Crypto Message Board On Community
+2025-05-22 12:08:15 INFO  Log:22 - Switched to tab 5
+2025-05-22 12:08:15 INFO  Log:22 - Title of Tab 5: [ANN] ixfi - more than crypto
+2025-05-22 12:08:15 INFO  Log:22 - Switched to tab 6
+2025-05-22 12:08:16 INFO  Log:22 - Title of Tab 6: IXFI | Gen 3.0 Exchange (@ixfiexchange) / X
+2025-05-22 12:08:16 INFO  Log:22 - Switched to tab 7
+2025-05-22 12:08:16 INFO  Log:22 - Title of Tab 7: IXFI | Gen 3.0 Exchange
+2025-05-22 12:08:17 INFO  Log:22 - Switched to tab 8
+2025-05-22 12:08:17 INFO  Log:22 - Title of Tab 8: IXFI | Gen 3.0 Exchange - YouTube
+2025-05-22 12:08:17 INFO  Log:22 - Switched to tab 9
+2025-05-22 12:08:18 INFO  Log:22 - Title of Tab 9: IXFI | Gen 3.0 Exchange (@ixfiexchange) • Instagram photos and videos
+2025-05-22 12:08:18 INFO  Log:22 - Switched to tab 10
+2025-05-22 12:08:18 INFO  Log:22 - Title of Tab 10: IXFI | Gen 3.0 Exchange | LinkedIn
+2025-05-22 12:08:18 INFO  Log:22 - Switched to tab 11
+2025-05-22 12:08:18 INFO  Log:22 - Title of Tab 11: IXFI Gen 3.0 Exchange | Facebook
+2025-05-22 12:08:18 INFO  Log:16 - =====================================verifyTheSocialMediaFooterLinksPresentAndAbleToOpenInNewTabTest TEST END=========================================
+2025-05-22 12:08:33 INFO  Log:22 - Scrolled to the footer section
+2025-05-22 12:08:40 INFO  Log:22 - Clicked on system status link present under support section
+2025-05-22 12:08:41 INFO  Log:22 - Clicked on wallet Section
+2025-05-22 12:08:44 INFO  Log:22 - Count: 
+2025-05-22 12:08:58 INFO  Log:12 - =====================================validateTradeInfoSectionTableData_CurrentStateByServicesTest TEST START=========================================
+2025-05-22 12:08:58 INFO  Log:22 - Scrolled to the footer section
+2025-05-22 12:09:03 INFO  Log:22 - Clicked on system status link present under support section
+2025-05-22 12:09:04 INFO  Log:22 - Clicked on Trade Info Section
+2025-05-22 12:09:09 INFO  Log:22 - Trade info Table Data: {bodyRows=[[SNT / ETH, ], [WTC / BTC, ], [YOYO / BTC, ], [OMG / BTC, ], [OMG / ETH, ], [ZRX / ETH, ], [KNC / ETH, ], [FUN / BTC, ], [FUN / ETH, ], [SNM / BTC, ], [NEO / ETH, ], [XVG / BTC, ], [MDA / BTC, ], [MTL / ETH, ], [SNT / BTC, ], [MTH / BTC, ], [DNT / BTC, ], [AST / BTC, ], [OAX / BTC, ], [BTG / BTC, ]], headers=[[Trade Pair Name, Status]]}
+2025-05-22 12:09:11 INFO  Log:22 - Table Headers:
+2025-05-22 12:09:11 INFO  Log:22 - Header Row 1: [Trade Pair Name, Status]
+2025-05-22 12:09:13 INFO  Log:22 - Table Body Rows:
+2025-05-22 12:09:13 INFO  Log:22 - Row 1: [SNT / ETH, ]
+2025-05-22 12:09:13 INFO  Log:22 - Checking Status value for Row 1: 
+2025-05-22 12:09:13 INFO  Log:22 - Row 2: [WTC / BTC, ]
+2025-05-22 12:09:13 INFO  Log:22 - Checking Status value for Row 2: 
+2025-05-22 12:09:13 INFO  Log:22 - Row 3: [YOYO / BTC, ]
+2025-05-22 12:09:13 INFO  Log:22 - Checking Status value for Row 3: 
+2025-05-22 12:09:13 INFO  Log:22 - Row 4: [OMG / BTC, ]
+2025-05-22 12:09:13 INFO  Log:22 - Checking Status value for Row 4: 
+2025-05-22 12:09:13 INFO  Log:22 - Row 5: [OMG / ETH, ]
+2025-05-22 12:09:13 INFO  Log:22 - Checking Status value for Row 5: 
+2025-05-22 12:09:13 INFO  Log:22 - Row 6: [ZRX / ETH, ]
+2025-05-22 12:09:13 INFO  Log:22 - Checking Status value for Row 6: 
+2025-05-22 12:09:13 INFO  Log:22 - Row 7: [KNC / ETH, ]
+2025-05-22 12:09:13 INFO  Log:22 - Checking Status value for Row 7: 
+2025-05-22 12:09:13 INFO  Log:22 - Row 8: [FUN / BTC, ]
+2025-05-22 12:09:13 INFO  Log:22 - Checking Status value for Row 8: 
+2025-05-22 12:09:13 INFO  Log:22 - Row 9: [FUN / ETH, ]
+2025-05-22 12:09:13 INFO  Log:22 - Checking Status value for Row 9: 
+2025-05-22 12:09:13 INFO  Log:22 - Row 10: [SNM / BTC, ]
+2025-05-22 12:09:13 INFO  Log:22 - Checking Status value for Row 10: 
+2025-05-22 12:09:13 INFO  Log:22 - Row 11: [NEO / ETH, ]
+2025-05-22 12:09:13 INFO  Log:22 - Checking Status value for Row 11: 
+2025-05-22 12:09:13 INFO  Log:22 - Row 12: [XVG / BTC, ]
+2025-05-22 12:09:13 INFO  Log:22 - Checking Status value for Row 12: 
+2025-05-22 12:09:13 INFO  Log:22 - Row 13: [MDA / BTC, ]
+2025-05-22 12:09:13 INFO  Log:22 - Checking Status value for Row 13: 
+2025-05-22 12:09:13 INFO  Log:22 - Row 14: [MTL / ETH, ]
+2025-05-22 12:09:13 INFO  Log:22 - Checking Status value for Row 14: 
+2025-05-22 12:09:13 INFO  Log:22 - Row 15: [SNT / BTC, ]
+2025-05-22 12:09:13 INFO  Log:22 - Checking Status value for Row 15: 
+2025-05-22 12:09:13 INFO  Log:22 - Row 16: [MTH / BTC, ]
+2025-05-22 12:09:13 INFO  Log:22 - Checking Status value for Row 16: 
+2025-05-22 12:09:13 INFO  Log:22 - Row 17: [DNT / BTC, ]
+2025-05-22 12:09:13 INFO  Log:22 - Checking Status value for Row 17: 
+2025-05-22 12:09:13 INFO  Log:22 - Row 18: [AST / BTC, ]
+2025-05-22 12:09:13 INFO  Log:22 - Checking Status value for Row 18: 
+2025-05-22 12:09:13 INFO  Log:22 - Row 19: [OAX / BTC, ]
+2025-05-22 12:09:13 INFO  Log:22 - Checking Status value for Row 19: 
+2025-05-22 12:09:13 INFO  Log:22 - Row 20: [BTG / BTC, ]
+2025-05-22 12:09:13 INFO  Log:22 - Checking Status value for Row 20: 
+2025-05-22 12:09:13 INFO  Log:16 - =====================================validateTradeInfoSectionTableData_CurrentStateByServicesTest TEST END=========================================
+2025-05-22 12:09:24 INFO  Log:12 - =====================================validateWalletSectionTableData_CurrentStateByServicesTest TEST START=========================================
+2025-05-22 12:09:25 INFO  Log:22 - Scrolled to the footer section
+2025-05-22 12:09:29 INFO  Log:22 - Clicked on system status link present under support section
+2025-05-22 12:09:30 INFO  Log:22 - Clicked on wallet Section
+2025-05-22 12:09:39 INFO  Log:22 - Wallets Table Data: {bodyRows=[[AGLD, Adventure Gold, Ethereum (ERC20), , , Clear], [GLM, Golem, Ethereum (ERC20), , , Clear], [RAY, Raydium, Solana, , , Clear], [NEAR, NEAR Protocol, Binance Smart Chain (BEP20)
+NEAR Protocol, , , Clear
+Clear], [AUDIO, Audius, Ethereum (ERC20), , , Clear], [FARM, Harvest Finance, Ethereum (ERC20), , , Clear], [DGB, DigiByte, DigiByte, , , Clear], [ZRX, 0x, Ethereum (ERC20), , , Clear], [BCH, Bitcoin Cash, Bitcoin Cash
+Binance Smart Chain (BEP20)
+Ethereum (ERC20), , , Clear
+Clear
+Clear], [JST, JUST, Binance Smart Chain (BEP20)
+Tron (TRC20), , , Clear
+Clear], [HOT, Holo, Ethereum (ERC20), , , Clear], [AR, Arweave, Arweave, , , Clear], [FLM, Flamingo, Neo Legacy
+NEO N3, , , Clear
+Clear], [GNO, Gnosis, Ethereum (ERC20), , , Clear], [CFX, Conflux Network, Binance Smart Chain (BEP20)
+CFX E-space
+CFX core space, , , Clear
+Clear
+Clear], [SFP, SafePal, Binance Smart Chain (BEP20)
+Ethereum (ERC20), , , Clear
+Clear], [DIA, DIA, Binance Smart Chain (BEP20)
+Ethereum (ERC20), , , Clear
+Clear], [ARDR, Ardor, Ardor, , , Clear], [BEL, Bella Protocol, Binance Smart Chain (BEP20)
+Ethereum (ERC20), , , Clear
+Clear], [JUV, Juventus Fan Token, Binance Smart Chain (BEP20)
+Chiliz Chain (CHZ)
+Chiliz Chain, , , Clear
+Clear
+Clear]], headers=[[Coin/Token, Full Name, Network, Deposit, Withdrawal, Network Congestion]]}
+2025-05-22 12:09:41 INFO  Log:22 - Table Headers:
+2025-05-22 12:09:41 INFO  Log:22 - Header Row 1: [Coin/Token, Full Name, Network, Deposit, Withdrawal, Network Congestion]
+2025-05-22 12:09:43 INFO  Log:22 - Table Body Rows:
+2025-05-22 12:09:43 INFO  Log:22 - Row 3: [AGLD, Adventure Gold, Ethereum (ERC20), , , Clear]
+2025-05-22 12:09:43 INFO  Log:22 - Checking if the attribute value is success
+2025-05-22 12:09:43 INFO  Log:22 - Row 4: [GLM, Golem, Ethereum (ERC20), , , Clear]
+2025-05-22 12:09:43 INFO  Log:22 - Checking if the attribute value is success
+2025-05-22 12:09:43 INFO  Log:22 - Row 5: [RAY, Raydium, Solana, , , Clear]
+2025-05-22 12:09:43 INFO  Log:22 - Checking if the attribute value is success
+2025-05-22 12:09:43 INFO  Log:22 - Row 6: [NEAR, NEAR Protocol, Binance Smart Chain (BEP20)
+NEAR Protocol, , , Clear
+Clear]
+2025-05-22 12:09:43 INFO  Log:22 - Checking if the attribute value is success
+2025-05-22 12:09:43 INFO  Log:22 - Row 7: [AUDIO, Audius, Ethereum (ERC20), , , Clear]
+2025-05-22 12:09:43 INFO  Log:22 - Checking if the attribute value is success
+2025-05-22 12:09:43 INFO  Log:22 - Row 8: [FARM, Harvest Finance, Ethereum (ERC20), , , Clear]
+2025-05-22 12:09:43 INFO  Log:22 - Checking if the attribute value is success
+2025-05-22 12:09:43 INFO  Log:22 - Row 9: [DGB, DigiByte, DigiByte, , , Clear]
+2025-05-22 12:09:43 INFO  Log:22 - Checking if the attribute value is success
+2025-05-22 12:09:43 INFO  Log:22 - Row 10: [ZRX, 0x, Ethereum (ERC20), , , Clear]
+2025-05-22 12:09:43 INFO  Log:22 - Checking if the attribute value is success
+2025-05-22 12:09:43 INFO  Log:22 - Row 11: [BCH, Bitcoin Cash, Bitcoin Cash
+Binance Smart Chain (BEP20)
+Ethereum (ERC20), , , Clear
+Clear
+Clear]
+2025-05-22 12:09:43 INFO  Log:22 - Checking if the attribute value is success
+2025-05-22 12:09:43 INFO  Log:22 - Row 12: [JST, JUST, Binance Smart Chain (BEP20)
+Tron (TRC20), , , Clear
+Clear]
+2025-05-22 12:09:43 INFO  Log:22 - Checking if the attribute value is success
+2025-05-22 12:09:43 INFO  Log:22 - Row 13: [HOT, Holo, Ethereum (ERC20), , , Clear]
+2025-05-22 12:09:43 INFO  Log:22 - Checking if the attribute value is success
+2025-05-22 12:09:43 INFO  Log:22 - Row 14: [AR, Arweave, Arweave, , , Clear]
+2025-05-22 12:09:43 INFO  Log:22 - Checking if the attribute value is success
+2025-05-22 12:09:43 INFO  Log:22 - Row 15: [FLM, Flamingo, Neo Legacy
+NEO N3, , , Clear
+Clear]
+2025-05-22 12:09:43 INFO  Log:22 - Checking if the attribute value is success
+2025-05-22 12:09:43 INFO  Log:22 - Row 16: [GNO, Gnosis, Ethereum (ERC20), , , Clear]
+2025-05-22 12:09:43 INFO  Log:22 - Checking if the attribute value is success
+2025-05-22 12:09:43 INFO  Log:22 - Row 17: [CFX, Conflux Network, Binance Smart Chain (BEP20)
+CFX E-space
+CFX core space, , , Clear
+Clear
+Clear]
+2025-05-22 12:09:43 INFO  Log:22 - Checking if the attribute value is success
+2025-05-22 12:09:43 INFO  Log:22 - Row 18: [SFP, SafePal, Binance Smart Chain (BEP20)
+Ethereum (ERC20), , , Clear
+Clear]
+2025-05-22 12:09:43 INFO  Log:22 - Checking if the attribute value is success
+2025-05-22 12:09:43 INFO  Log:22 - Row 19: [DIA, DIA, Binance Smart Chain (BEP20)
+Ethereum (ERC20), , , Clear
+Clear]
+2025-05-22 12:09:43 INFO  Log:22 - Checking if the attribute value is success
+2025-05-22 12:09:43 INFO  Log:22 - Row 20: [ARDR, Ardor, Ardor, , , Clear]
+2025-05-22 12:09:43 INFO  Log:22 - Checking if the attribute value is success
+2025-05-22 12:09:43 INFO  Log:22 - Row 21: [BEL, Bella Protocol, Binance Smart Chain (BEP20)
+Ethereum (ERC20), , , Clear
+Clear]
+2025-05-22 12:09:43 INFO  Log:22 - Checking if the attribute value is success
+2025-05-22 12:09:43 INFO  Log:22 - Row 22: [JUV, Juventus Fan Token, Binance Smart Chain (BEP20)
+Chiliz Chain (CHZ)
+Chiliz Chain, , , Clear
+Clear
+Clear]
+2025-05-22 12:09:43 INFO  Log:22 - Checking if the attribute value is success
+2025-05-22 12:09:43 INFO  Log:16 - =====================================validateWalletSectionTableData_CurrentStateByServicesTest TEST END=========================================
+2025-05-22 12:10:00 INFO  Log:12 - =====================================verifyThatUserIsAbleToClickOnAllProgramSectionTest TEST START=========================================
+2025-05-22 12:10:00 INFO  Log:22 - Scrolled to the footer section
+2025-05-22 12:10:05 INFO  Log:22 - Clicked on system status link present under support section
+2025-05-22 12:10:06 INFO  Log:22 - Clicked on All Programm section
+2025-05-22 12:10:06 INFO  Log:22 - Heading: All Program
+2025-05-22 12:10:06 INFO  Log:16 - =====================================verifyThatUserIsAbleToClickOnAllProgramSectionTest TEST END=========================================
+2025-05-22 12:10:21 INFO  Log:12 - =====================================verifyThatUserIsAbleToClickOnSystemStatusLinkAndNavigatesToTheStatusPageTest TEST START=========================================
+2025-05-22 12:10:21 INFO  Log:22 - Scrolled to the footer section
+2025-05-22 12:10:27 INFO  Log:22 - Clicked on system status link present under support section
+2025-05-22 12:10:28 INFO  Log:22 - System status text: System Status
+2025-05-22 12:10:28 INFO  Log:22 - Expected Title: Status | ixfi
+2025-05-22 12:10:28 INFO  Log:22 - ActualTitle: Status | ixfi
+2025-05-22 12:10:28 INFO  Log:16 - =====================================verifyThatUserIsAbleToClickOnSystemStatusLinkAndNavigatesToTheStatusPageTest TEST END=========================================
+2025-05-22 12:10:37 INFO  Log:12 - =====================================verifyThatUserIsAbleToNavigateToTheTradeInfoSection TEST START=========================================
+2025-05-22 12:10:37 INFO  Log:22 - Scrolled to the footer section
+2025-05-22 12:10:41 INFO  Log:22 - Clicked on system status link present under support section
+2025-05-22 12:10:42 INFO  Log:22 - Clicked on Trade Info Section
+2025-05-22 12:10:43 INFO  Log:22 - Trade section Heading: Trade Info
+2025-05-22 12:10:43 INFO  Log:16 - =====================================verifyThatUserIsAbleToNavigateToTheTradeInfoSection TEST END=========================================
+2025-05-22 12:10:53 INFO  Log:12 - =====================================verifyTheAllProgrammSectionTableData_CurrentStateByServicesTest TEST START=========================================
+2025-05-22 12:10:53 INFO  Log:22 - Scrolled to the footer section
+2025-05-22 12:10:57 INFO  Log:22 - Clicked on system status link present under support section
+2025-05-22 12:10:59 INFO  Log:22 - Clicked on All Programm section
+2025-05-22 12:10:59 INFO  Log:22 - All Rows:3
+2025-05-22 12:11:00 INFO  Log:22 - Service Name: Trade
+2025-05-22 12:11:00 INFO  Log:22 - Service status: No issues
+2025-05-22 12:11:00 INFO  Log:22 - SubService NameConvert
+2025-05-22 12:11:00 INFO  Log:22 - SubService status: No issues
+2025-05-22 12:11:01 INFO  Log:22 - Service Name: Wallet
+2025-05-22 12:11:01 INFO  Log:22 - Service status: No issues
+2025-05-22 12:11:01 INFO  Log:22 - SubService NameBuy Crypto
+2025-05-22 12:11:01 INFO  Log:22 - SubService status: No issues
+2025-05-22 12:11:02 INFO  Log:22 - Service Name: Reward
+2025-05-22 12:11:02 INFO  Log:22 - Service status: No issues
+2025-05-22 12:11:02 INFO  Log:22 - SubService NameResearch
+2025-05-22 12:11:02 INFO  Log:22 - SubService status: No issues
+2025-05-22 12:11:02 INFO  Log:16 - =====================================verifyTheAllProgrammSectionTableData_CurrentStateByServicesTest TEST END=========================================
+2025-05-22 12:11:12 INFO  Log:12 - =====================================validateAllSectionsTableDataInSpotMarketsTest TEST START=========================================
+2025-05-22 12:11:12 INFO  Log:22 - Clicked on Markets Header Menu Button
+2025-05-22 12:11:17 INFO  Log:22 - Clicked on spot marktes section
+2025-05-22 12:11:17 INFO  Log:22 - Clicked on All tab in spot markets: 
+2025-05-22 12:11:27 INFO  Log:22 - Wallets Table Data: {bodyRows=[[BTC
+/
+USDC, 110,770, $110,802.42, +2.62%, 111,924.16, 106,136.38, 945.2M, $2,201,420M, Trade Details], [ETH
+/
+BTC, 0.02358, $2,613.27, 2.16%, 0.02417, 0.02304, 1,115.27, $315,492.6M, Trade Details], [ETH
+/
+USDC, 2,612.49, $2,613.27, +0.42%, 2,649, 2,453.84, 1,031.2M, $315,492.6M, Trade Details], [XRP
+/
+BTC, 0.00002163, $2.4, 2.04%, 0.00002216, 0.0000216, 97.23, $140,684.6M, Trade Details], [XRP
+/
+ETH, 0.0009176, $2.4, +0.12%, 0.000956, 0.0009134, 840.36, $140,684.6M, Trade Details], [XRP
+/
+BNB, 0.0035219, $2.4, 2.28%, 0.003645, 0.0035052, 446.83, $140,684.6M, Trade Details], [XRP
+/
+USDC, 2.3976, $2.4, +0.57%, 2.4302, 2.3321, 85.5M, $140,684.6M, Trade Details], [BNB
+/
+BTC, 0.00614, $680.3, +0.18%, 0.006276, 0.006027, 100.58, $95,846.7M, Trade Details], [BNB
+/
+ETH, 0.2604, $680.3, +2.48%, 0.2713, 0.2534, 4,415.58, $95,846.7M, Trade Details], [BNB
+/
+USDC, 680.14, $680.3, +2.83%, 689.95, 650.26, 54.2M, $95,846.7M, Trade Details], [SOL
+/
+BNB, 0.2586, $175.79, 0.23%, 0.2632, 0.2495, 3,277.40, $91,417.4M, Trade Details], [SOL
+/
+BTC, 0.0015878, $175.79, +0.12%, 0.0015965, 0.001552, 256.02, $91,417.4M, Trade Details], [SOL
+/
+USDC, 175.94, $175.79, +2.81%, 177.82, 165.59, 270.4M, $91,417.4M, Trade Details], [SOL
+/
+ETH, 0.06734, $175.79, +2.34%, 0.06825, 0.06572, 3,650.23, $91,417.4M, Trade Details], [DOGE
+/
+BTC, 0.00000215, $0.23, +0.00%, 0.00000222, 0.00000208, 93.59, $35,521.7M, Trade Details], [DOGE
+/
+USDC, 0.23787, $0.23, +2.38%, 0.24378, 0.2228, 66.7M, $35,521.7M, Trade Details], [ADA
+/
+BTC, 0.0000071, $0.78, +0.14%, 0.00000717, 0.00000695, 29.40, $27,800.5M, Trade Details], [ADA
+/
+ETH, 0.0003012, $0.78, +2.38%, 0.0003053, 0.0002942, 339.88, $27,800.5M, Trade Details], [ADA
+/
+BNB, 0.001155, $0.78, 0.26%, 0.00117, 0.001119, 144.05, $27,800.5M, Trade Details], [ADA
+/
+USDC, 0.7875, $0.78, +2.83%, 0.7949, 0.7426, 31.8M, $27,800.5M, Trade Details]], headers=[[Pair, Last Price, , 24h CHG, 24h High, 24h Low, 24h Volume, Market Cap, Action]]}
+2025-05-22 12:11:29 INFO  Log:22 - Table Headers:
+2025-05-22 12:11:29 INFO  Log:22 - Header Row 1: [Pair, Last Price, , 24h CHG, 24h High, 24h Low, 24h Volume, Market Cap, Action]
+2025-05-22 12:11:31 INFO  Log:22 - Table Body Rows:
+2025-05-22 12:11:31 INFO  Log:22 - Row 1: [BTC
+/
+USDC, 110,770, $110,802.42, +2.62%, 111,924.16, 106,136.38, 945.2M, $2,201,420M, Trade Details]
+2025-05-22 12:11:31 INFO  Log:22 - 24H CHG Value: +2.62%
+2025-05-22 12:11:31 INFO  Log:22 - Row 2: [ETH
+/
+BTC, 0.02358, $2,613.27, 2.16%, 0.02417, 0.02304, 1,115.27, $315,492.6M, Trade Details]
+2025-05-22 12:11:31 INFO  Log:22 - 24H CHG Value: 2.16%
+2025-05-22 12:11:31 INFO  Log:22 - Row 3: [ETH
+/
+USDC, 2,612.49, $2,613.27, +0.42%, 2,649, 2,453.84, 1,031.2M, $315,492.6M, Trade Details]
+2025-05-22 12:11:31 INFO  Log:22 - 24H CHG Value: +0.42%
+2025-05-22 12:11:31 INFO  Log:22 - Row 4: [XRP
+/
+BTC, 0.00002163, $2.4, 2.04%, 0.00002216, 0.0000216, 97.23, $140,684.6M, Trade Details]
+2025-05-22 12:11:31 INFO  Log:22 - 24H CHG Value: 2.04%
+2025-05-22 12:11:31 INFO  Log:22 - Row 5: [XRP
+/
+ETH, 0.0009176, $2.4, +0.12%, 0.000956, 0.0009134, 840.36, $140,684.6M, Trade Details]
+2025-05-22 12:11:31 INFO  Log:22 - 24H CHG Value: +0.12%
+2025-05-22 12:11:31 INFO  Log:22 - Row 6: [XRP
+/
+BNB, 0.0035219, $2.4, 2.28%, 0.003645, 0.0035052, 446.83, $140,684.6M, Trade Details]
+2025-05-22 12:11:31 INFO  Log:22 - 24H CHG Value: 2.28%
+2025-05-22 12:11:31 INFO  Log:22 - Row 7: [XRP
+/
+USDC, 2.3976, $2.4, +0.57%, 2.4302, 2.3321, 85.5M, $140,684.6M, Trade Details]
+2025-05-22 12:11:31 INFO  Log:22 - 24H CHG Value: +0.57%
+2025-05-22 12:11:31 INFO  Log:22 - Row 8: [BNB
+/
+BTC, 0.00614, $680.3, +0.18%, 0.006276, 0.006027, 100.58, $95,846.7M, Trade Details]
+2025-05-22 12:11:31 INFO  Log:22 - 24H CHG Value: +0.18%
+2025-05-22 12:11:31 INFO  Log:22 - Row 9: [BNB
+/
+ETH, 0.2604, $680.3, +2.48%, 0.2713, 0.2534, 4,415.58, $95,846.7M, Trade Details]
+2025-05-22 12:11:31 INFO  Log:22 - 24H CHG Value: +2.48%
+2025-05-22 12:11:31 INFO  Log:22 - Row 10: [BNB
+/
+USDC, 680.14, $680.3, +2.83%, 689.95, 650.26, 54.2M, $95,846.7M, Trade Details]
+2025-05-22 12:11:31 INFO  Log:22 - 24H CHG Value: +2.83%
+2025-05-22 12:11:31 INFO  Log:22 - Row 11: [SOL
+/
+BNB, 0.2586, $175.79, 0.23%, 0.2632, 0.2495, 3,277.40, $91,417.4M, Trade Details]
+2025-05-22 12:11:31 INFO  Log:22 - 24H CHG Value: 0.23%
+2025-05-22 12:11:31 INFO  Log:22 - Row 12: [SOL
+/
+BTC, 0.0015878, $175.79, +0.12%, 0.0015965, 0.001552, 256.02, $91,417.4M, Trade Details]
+2025-05-22 12:11:31 INFO  Log:22 - 24H CHG Value: +0.12%
+2025-05-22 12:11:31 INFO  Log:22 - Row 13: [SOL
+/
+USDC, 175.94, $175.79, +2.81%, 177.82, 165.59, 270.4M, $91,417.4M, Trade Details]
+2025-05-22 12:11:31 INFO  Log:22 - 24H CHG Value: +2.81%
+2025-05-22 12:11:31 INFO  Log:22 - Row 14: [SOL
+/
+ETH, 0.06734, $175.79, +2.34%, 0.06825, 0.06572, 3,650.23, $91,417.4M, Trade Details]
+2025-05-22 12:11:31 INFO  Log:22 - 24H CHG Value: +2.34%
+2025-05-22 12:11:31 INFO  Log:22 - Row 15: [DOGE
+/
+BTC, 0.00000215, $0.23, +0.00%, 0.00000222, 0.00000208, 93.59, $35,521.7M, Trade Details]
+2025-05-22 12:11:31 INFO  Log:22 - 24H CHG Value: +0.00%
+2025-05-22 12:11:31 INFO  Log:22 - Row 16: [DOGE
+/
+USDC, 0.23787, $0.23, +2.38%, 0.24378, 0.2228, 66.7M, $35,521.7M, Trade Details]
+2025-05-22 12:11:31 INFO  Log:22 - 24H CHG Value: +2.38%
+2025-05-22 12:11:31 INFO  Log:22 - Row 17: [ADA
+/
+BTC, 0.0000071, $0.78, +0.14%, 0.00000717, 0.00000695, 29.40, $27,800.5M, Trade Details]
+2025-05-22 12:11:31 INFO  Log:22 - 24H CHG Value: +0.14%
+2025-05-22 12:11:31 INFO  Log:22 - Row 18: [ADA
+/
+ETH, 0.0003012, $0.78, +2.38%, 0.0003053, 0.0002942, 339.88, $27,800.5M, Trade Details]
+2025-05-22 12:11:31 INFO  Log:22 - 24H CHG Value: +2.38%
+2025-05-22 12:11:31 INFO  Log:22 - Row 19: [ADA
+/
+BNB, 0.001155, $0.78, 0.26%, 0.00117, 0.001119, 144.05, $27,800.5M, Trade Details]
+2025-05-22 12:11:31 INFO  Log:22 - 24H CHG Value: 0.26%
+2025-05-22 12:11:31 INFO  Log:22 - Row 20: [ADA
+/
+USDC, 0.7875, $0.78, +2.83%, 0.7949, 0.7426, 31.8M, $27,800.5M, Trade Details]
+2025-05-22 12:11:31 INFO  Log:22 - 24H CHG Value: +2.83%
+2025-05-22 12:11:31 INFO  Log:16 - =====================================validateAllSectionsTableDataInSpotMarketsTest TEST END=========================================
+2025-05-22 12:12:02 INFO  Log:12 - =====================================verify24HVolumeDataIsPresentForDefaultCoinPairsTest TEST START=========================================
+2025-05-22 12:12:03 INFO  Log:22 - Clicked on Markets Header Menu Button
+2025-05-22 12:12:20 INFO  Log:22 - Captured 24h volume data for default coin and the size is 0
+2025-05-22 12:12:20 INFO  Log:16 - =====================================verify24HVolumeDataIsPresentForDefaultCoinPairsTest TEST END=========================================
+2025-05-22 12:12:30 INFO  Log:12 - =====================================verifyThatOnClickingOnDefaultCoinPairUserIsNavigatedToTheTradePageTest TEST START=========================================
+2025-05-22 12:12:31 INFO  Log:22 - Clicked on Markets Header Menu Button
+2025-05-22 12:12:48 INFO  Log:22 - Captured the default coin pairs and the size is: 0
+2025-05-22 12:12:48 INFO  Log:16 - =====================================verifyThatOnClickingOnDefaultCoinPairUserIsNavigatedToTheTradePageTest TEST END=========================================
+2025-05-22 12:12:57 INFO  Log:12 - =====================================verifyThatUserIsAbleToClickOnAllSectionInALTSMarketSectionAndAbleToValidateTheTableDataTest TEST START=========================================
+2025-05-22 12:12:58 INFO  Log:22 - Clicked on Markets Header Menu Button
+2025-05-22 12:13:01 INFO  Log:22 - Clicked on spot marktes section
+2025-05-22 12:13:04 INFO  Log:22 - Clicked on ALTS Market section
+2025-05-22 12:13:06 INFO  Log:22 - Clicked on All section in ALT Market
+2025-05-22 12:13:17 INFO  Log:22 - ALTS Markets Table Data: {bodyRows=[[XRP
+/
+BNB, 0.0035219, $2.4, 2.38%, 0.003645, 0.0035052, 446.69, $140,766.8M, Trade Details], [SOL
+/
+BNB, 0.2589, $176.01, 0.12%, 0.2632, 0.2495, 3,277.43, $91,531.8M, Trade Details], [ADA
+/
+BNB, 0.001158, $0.78, 0.09%, 0.00117, 0.001119, 144.05, $27,797M, Trade Details], [TRX
+/
+BNB, 0.0004007, $0.27, 2.39%, 0.0004179, 0.0003926, 187.62, $25,853.1M, Trade Details], [TRX
+/
+XRP, 0.1137, $0.27, 0.09%, 0.1163, 0.1114, 54,188.45, $25,853.1M, Trade Details], [SUI
+/
+BNB, 0.005932, $4.04, +0.34%, 0.006075, 0.005727, 299.04, $13,497.5M, Trade Details], [LINK
+/
+BNB, 0.02392, $16.25, 1.40%, 0.02479, 0.02337, 105.03, $10,680.7M, Trade Details], [AVAX
+/
+BNB, 0.03526, $24.01, +1.56%, 0.03548, 0.03357, 102.43, $10,107.7M, Trade Details], [HBAR
+/
+BNB, 0.00029432, $0.20, 1.83%, 0.00030249, 0.00028941, 435.57, $8,455.7M, Trade Details], [BCH
+/
+BNB, 0.6123, $414.91, +1.04%, 0.623, 0.5967, 76.33, $8,245.5M, Trade Details], [DOT
+/
+BNB, 0.00704, $4.79, 2.36%, 0.00727, 0.00698, 19.47, $7,573.7M, Trade Details], [LTC
+/
+BNB, 0.144, $98.36, 0.90%, 0.1467, 0.1417, 131.18, $7,463.2M, Trade Details], [NEAR
+/
+BNB, 0.004289, $2.93, +0.28%, 0.004421, 0.004143, 19.75, $3,564.3M, Trade Details], [ETC
+/
+BNB, 0.02841, $19.36, +0.28%, 0.029, 0.02634, 43.84, $2,942.1M, Trade Details], [POL
+/
+BNB, 0.0003639, $0.24, +2.77%, 0.0003661, 0.000351, 86.88, $2,589.7M, Trade Details], [VET
+/
+BNB, 0.00004378, $0.029, 0.34%, 0.00004423, 0.00004214, 14.86, $2,565.6M, Trade Details], [ENA
+/
+BNB, 0.0005929, $0.40, 1.08%, 0.0006166, 0.0005773, 48.09, $2,356.7M, Trade Details], [FET
+/
+BNB, 0.001192, $0.81, 1.00%, 0.00124, 0.001166, 283.12, $1,947.6M, Trade Details], [STX
+/
+BNB, 0.00144, $0.98, +3.67%, 0.001466, 0.001343, 26.24, $1,501.2M, Trade Details], [S
+/
+BNB, 0.000761, $0.51, 1.68%, 0.00078, 0.000745, 94.56, $1,496.3M, Trade Details]], headers=[[Pair, Last Price, , 24h CHG, 24h High, 24h Low, 24h Volume, Market Cap, Action]]}
+2025-05-22 12:13:19 INFO  Log:22 - Table Headers:
+2025-05-22 12:13:19 INFO  Log:22 - Header Row 1: [Pair, Last Price, , 24h CHG, 24h High, 24h Low, 24h Volume, Market Cap, Action]
+2025-05-22 12:13:21 INFO  Log:22 - Table Body Rows:
+2025-05-22 12:13:21 INFO  Log:22 - Row 1: [XRP
+/
+BNB, 0.0035219, $2.4, 2.38%, 0.003645, 0.0035052, 446.69, $140,766.8M, Trade Details]
+2025-05-22 12:13:21 INFO  Log:22 - 24H CHG Value: 2.38%
+2025-05-22 12:13:21 INFO  Log:22 - Row 2: [SOL
+/
+BNB, 0.2589, $176.01, 0.12%, 0.2632, 0.2495, 3,277.43, $91,531.8M, Trade Details]
+2025-05-22 12:13:21 INFO  Log:22 - 24H CHG Value: 0.12%
+2025-05-22 12:13:21 INFO  Log:22 - Row 3: [ADA
+/
+BNB, 0.001158, $0.78, 0.09%, 0.00117, 0.001119, 144.05, $27,797M, Trade Details]
+2025-05-22 12:13:21 INFO  Log:22 - 24H CHG Value: 0.09%
+2025-05-22 12:13:21 INFO  Log:22 - Row 4: [TRX
+/
+BNB, 0.0004007, $0.27, 2.39%, 0.0004179, 0.0003926, 187.62, $25,853.1M, Trade Details]
+2025-05-22 12:13:21 INFO  Log:22 - 24H CHG Value: 2.39%
+2025-05-22 12:13:21 INFO  Log:22 - Row 5: [TRX
+/
+XRP, 0.1137, $0.27, 0.09%, 0.1163, 0.1114, 54,188.45, $25,853.1M, Trade Details]
+2025-05-22 12:13:21 INFO  Log:22 - 24H CHG Value: 0.09%
+2025-05-22 12:13:21 INFO  Log:22 - Row 6: [SUI
+/
+BNB, 0.005932, $4.04, +0.34%, 0.006075, 0.005727, 299.04, $13,497.5M, Trade Details]
+2025-05-22 12:13:21 INFO  Log:22 - 24H CHG Value: +0.34%
+2025-05-22 12:13:21 INFO  Log:22 - Row 7: [LINK
+/
+BNB, 0.02392, $16.25, 1.40%, 0.02479, 0.02337, 105.03, $10,680.7M, Trade Details]
+2025-05-22 12:13:21 INFO  Log:22 - 24H CHG Value: 1.40%
+2025-05-22 12:13:21 INFO  Log:22 - Row 8: [AVAX
+/
+BNB, 0.03526, $24.01, +1.56%, 0.03548, 0.03357, 102.43, $10,107.7M, Trade Details]
+2025-05-22 12:13:21 INFO  Log:22 - 24H CHG Value: +1.56%
+2025-05-22 12:13:21 INFO  Log:22 - Row 9: [HBAR
+/
+BNB, 0.00029432, $0.20, 1.83%, 0.00030249, 0.00028941, 435.57, $8,455.7M, Trade Details]
+2025-05-22 12:13:21 INFO  Log:22 - 24H CHG Value: 1.83%
+2025-05-22 12:13:21 INFO  Log:22 - Row 10: [BCH
+/
+BNB, 0.6123, $414.91, +1.04%, 0.623, 0.5967, 76.33, $8,245.5M, Trade Details]
+2025-05-22 12:13:21 INFO  Log:22 - 24H CHG Value: +1.04%
+2025-05-22 12:13:21 INFO  Log:22 - Row 11: [DOT
+/
+BNB, 0.00704, $4.79, 2.36%, 0.00727, 0.00698, 19.47, $7,573.7M, Trade Details]
+2025-05-22 12:13:21 INFO  Log:22 - 24H CHG Value: 2.36%
+2025-05-22 12:13:21 INFO  Log:22 - Row 12: [LTC
+/
+BNB, 0.144, $98.36, 0.90%, 0.1467, 0.1417, 131.18, $7,463.2M, Trade Details]
+2025-05-22 12:13:21 INFO  Log:22 - 24H CHG Value: 0.90%
+2025-05-22 12:13:21 INFO  Log:22 - Row 13: [NEAR
+/
+BNB, 0.004289, $2.93, +0.28%, 0.004421, 0.004143, 19.75, $3,564.3M, Trade Details]
+2025-05-22 12:13:21 INFO  Log:22 - 24H CHG Value: +0.28%
+2025-05-22 12:13:21 INFO  Log:22 - Row 14: [ETC
+/
+BNB, 0.02841, $19.36, +0.28%, 0.029, 0.02634, 43.84, $2,942.1M, Trade Details]
+2025-05-22 12:13:21 INFO  Log:22 - 24H CHG Value: +0.28%
+2025-05-22 12:13:21 INFO  Log:22 - Row 15: [POL
+/
+BNB, 0.0003639, $0.24, +2.77%, 0.0003661, 0.000351, 86.88, $2,589.7M, Trade Details]
+2025-05-22 12:13:21 INFO  Log:22 - 24H CHG Value: +2.77%
+2025-05-22 12:13:21 INFO  Log:22 - Row 16: [VET
+/
+BNB, 0.00004378, $0.029, 0.34%, 0.00004423, 0.00004214, 14.86, $2,565.6M, Trade Details]
+2025-05-22 12:13:21 INFO  Log:22 - 24H CHG Value: 0.34%
+2025-05-22 12:13:21 INFO  Log:22 - Row 17: [ENA
+/
+BNB, 0.0005929, $0.40, 1.08%, 0.0006166, 0.0005773, 48.09, $2,356.7M, Trade Details]
+2025-05-22 12:13:21 INFO  Log:22 - 24H CHG Value: 1.08%
+2025-05-22 12:13:21 INFO  Log:22 - Row 18: [FET
+/
+BNB, 0.001192, $0.81, 1.00%, 0.00124, 0.001166, 283.12, $1,947.6M, Trade Details]
+2025-05-22 12:13:21 INFO  Log:22 - 24H CHG Value: 1.00%
+2025-05-22 12:13:21 INFO  Log:22 - Row 19: [STX
+/
+BNB, 0.00144, $0.98, +3.67%, 0.001466, 0.001343, 26.24, $1,501.2M, Trade Details]
+2025-05-22 12:13:21 INFO  Log:22 - 24H CHG Value: +3.67%
+2025-05-22 12:13:21 INFO  Log:22 - Row 20: [S
+/
+BNB, 0.000761, $0.51, 1.68%, 0.00078, 0.000745, 94.56, $1,496.3M, Trade Details]
+2025-05-22 12:13:21 INFO  Log:22 - 24H CHG Value: 1.68%
+2025-05-22 12:13:21 INFO  Log:16 - =====================================verifyThatUserIsAbleToClickOnAllSectionInALTSMarketSectionAndAbleToValidateTheTableDataTest TEST END=========================================
+2025-05-22 12:13:30 INFO  Log:12 - =====================================verifyThatUserIsAbleToClickOnALLSectionInFIATMarketSectionAndAbleToValidateTheTableDataTest TEST START=========================================
+2025-05-22 12:13:31 INFO  Log:22 - Clicked on Markets Header Menu Button
+2025-05-22 12:13:35 INFO  Log:22 - Clicked on spot marktes section
+2025-05-22 12:13:37 INFO  Log:22 - Clicked on FIAT Market section
+2025-05-22 12:13:39 INFO  Log:22 - Clicked on All section in FIAT Market
+2025-05-22 12:13:50 INFO  Log:22 - All - FIAT Markets Table Data: {bodyRows=[[BTC
+/
+USDC, 110,874, $110,864.6, +2.66%, 111,924.16, 106,136.38, 945.1M, $2,202,655.5M, Trade Details], [ETH
+/
+USDC, 2,617.71, $2,613.89, +0.47%, 2,649, 2,453.84, 1,031.2M, $315,567.5M, Trade Details], [XRP
+/
+USDC, 2.4003, $2.4, +0.60%, 2.4302, 2.3321, 85.5M, $140,766.8M, Trade Details], [BNB
+/
+USDC, 680.57, $680.19, +2.87%, 689.95, 650.26, 54.2M, $95,831.2M, Trade Details], [SOL
+/
+USDC, 176.21, $176.01, +2.82%, 177.82, 165.59, 270.4M, $91,531.8M, Trade Details], [DOGE
+/
+USDC, 0.23821, $0.23, +2.27%, 0.24378, 0.2228, 66.7M, $35,529.1M, Trade Details], [ADA
+/
+USDC, 0.7886, $0.78, +2.91%, 0.7949, 0.7426, 31.9M, $27,797M, Trade Details], [TRX
+/
+USDC, 0.2728, $0.27, +0.44%, 0.2745, 0.2659, 5.4M, $25,853.1M, Trade Details], [SUI
+/
+USDC, 4.0476, $4.04, +3.50%, 4.0785, 3.804, 163.8M, $13,497.5M, Trade Details], [LINK
+/
+USDC, 16.3, $16.25, +1.49%, 16.53, 15.56, 16.1M, $10,680.7M, Trade Details], [AVAX
+/
+USDC, 24.04, $24.01, +4.57%, 24.15, 22.38, 11.5M, $10,107.7M, Trade Details], [XLM
+/
+USDC, 0.2972, $0.29, +1.75%, 0.2992, 0.2847, 2.4M, $9,226.8M, Trade Details], [SHIB
+/
+USDC, 0.000015, $0.000014, +0.67%, 0.00001519, 0.00001429, 3.3M, $8,829.3M, Trade Details], [HBAR
+/
+USDC, 0.20026, $0.20, +0.98%, 0.20247, 0.19246, 14M, $8,455.7M, Trade Details], [BCH
+/
+USDC, 415.2, $414.91, +3.34%, 425.9, 394.5, 3.2M, $8,245.5M, Trade Details], [TON
+/
+USDC, 3.129, $3.12, +1.00%, 3.142, 3.019, 2.2M, $7,776.4M, Trade Details], [DOT
+/
+USDC, 4.797, $4.79, +0.52%, 4.879, 4.614, 3.9M, $7,573.7M, Trade Details], [LTC
+/
+USDC, 98.25, $98.36, +2.24%, 100.2, 94.25, 12.3M, $7,463.2M, Trade Details], [PEPE
+/
+USDC, 0.00001385, $0.000013, 1.42%, 0.00001463, 0.00001281, 141.2M, $5,802.9M, Trade Details], [TAO
+/
+USDC, 471.1, $469.53, +10.80%, 472.8, 410.8, 13.3M, $4,155.1M, Trade Details]], headers=[[Pair, Last Price, , 24h CHG, 24h High, 24h Low, 24h Volume, Market Cap, Action]]}
+2025-05-22 12:13:52 INFO  Log:22 - Table Headers:
+2025-05-22 12:13:52 INFO  Log:22 - Header Row 1: [Pair, Last Price, , 24h CHG, 24h High, 24h Low, 24h Volume, Market Cap, Action]
+2025-05-22 12:13:54 INFO  Log:22 - Table Body Rows:
+2025-05-22 12:13:54 INFO  Log:22 - Row 1: [BTC
+/
+USDC, 110,874, $110,864.6, +2.66%, 111,924.16, 106,136.38, 945.1M, $2,202,655.5M, Trade Details]
+2025-05-22 12:13:54 INFO  Log:22 - 24H CHG Value: +2.66%
+2025-05-22 12:13:54 INFO  Log:22 - Row 2: [ETH
+/
+USDC, 2,617.71, $2,613.89, +0.47%, 2,649, 2,453.84, 1,031.2M, $315,567.5M, Trade Details]
+2025-05-22 12:13:54 INFO  Log:22 - 24H CHG Value: +0.47%
+2025-05-22 12:13:54 INFO  Log:22 - Row 3: [XRP
+/
+USDC, 2.4003, $2.4, +0.60%, 2.4302, 2.3321, 85.5M, $140,766.8M, Trade Details]
+2025-05-22 12:13:54 INFO  Log:22 - 24H CHG Value: +0.60%
+2025-05-22 12:13:54 INFO  Log:22 - Row 4: [BNB
+/
+USDC, 680.57, $680.19, +2.87%, 689.95, 650.26, 54.2M, $95,831.2M, Trade Details]
+2025-05-22 12:13:54 INFO  Log:22 - 24H CHG Value: +2.87%
+2025-05-22 12:13:54 INFO  Log:22 - Row 5: [SOL
+/
+USDC, 176.21, $176.01, +2.82%, 177.82, 165.59, 270.4M, $91,531.8M, Trade Details]
+2025-05-22 12:13:54 INFO  Log:22 - 24H CHG Value: +2.82%
+2025-05-22 12:13:54 INFO  Log:22 - Row 6: [DOGE
+/
+USDC, 0.23821, $0.23, +2.27%, 0.24378, 0.2228, 66.7M, $35,529.1M, Trade Details]
+2025-05-22 12:13:54 INFO  Log:22 - 24H CHG Value: +2.27%
+2025-05-22 12:13:54 INFO  Log:22 - Row 7: [ADA
+/
+USDC, 0.7886, $0.78, +2.91%, 0.7949, 0.7426, 31.9M, $27,797M, Trade Details]
+2025-05-22 12:13:54 INFO  Log:22 - 24H CHG Value: +2.91%
+2025-05-22 12:13:54 INFO  Log:22 - Row 8: [TRX
+/
+USDC, 0.2728, $0.27, +0.44%, 0.2745, 0.2659, 5.4M, $25,853.1M, Trade Details]
+2025-05-22 12:13:54 INFO  Log:22 - 24H CHG Value: +0.44%
+2025-05-22 12:13:54 INFO  Log:22 - Row 9: [SUI
+/
+USDC, 4.0476, $4.04, +3.50%, 4.0785, 3.804, 163.8M, $13,497.5M, Trade Details]
+2025-05-22 12:13:54 INFO  Log:22 - 24H CHG Value: +3.50%
+2025-05-22 12:13:54 INFO  Log:22 - Row 10: [LINK
+/
+USDC, 16.3, $16.25, +1.49%, 16.53, 15.56, 16.1M, $10,680.7M, Trade Details]
+2025-05-22 12:13:54 INFO  Log:22 - 24H CHG Value: +1.49%
+2025-05-22 12:13:54 INFO  Log:22 - Row 11: [AVAX
+/
+USDC, 24.04, $24.01, +4.57%, 24.15, 22.38, 11.5M, $10,107.7M, Trade Details]
+2025-05-22 12:13:54 INFO  Log:22 - 24H CHG Value: +4.57%
+2025-05-22 12:13:54 INFO  Log:22 - Row 12: [XLM
+/
+USDC, 0.2972, $0.29, +1.75%, 0.2992, 0.2847, 2.4M, $9,226.8M, Trade Details]
+2025-05-22 12:13:54 INFO  Log:22 - 24H CHG Value: +1.75%
+2025-05-22 12:13:54 INFO  Log:22 - Row 13: [SHIB
+/
+USDC, 0.000015, $0.000014, +0.67%, 0.00001519, 0.00001429, 3.3M, $8,829.3M, Trade Details]
+2025-05-22 12:13:54 INFO  Log:22 - 24H CHG Value: +0.67%
+2025-05-22 12:13:54 INFO  Log:22 - Row 14: [HBAR
+/
+USDC, 0.20026, $0.20, +0.98%, 0.20247, 0.19246, 14M, $8,455.7M, Trade Details]
+2025-05-22 12:13:54 INFO  Log:22 - 24H CHG Value: +0.98%
+2025-05-22 12:13:54 INFO  Log:22 - Row 15: [BCH
+/
+USDC, 415.2, $414.91, +3.34%, 425.9, 394.5, 3.2M, $8,245.5M, Trade Details]
+2025-05-22 12:13:54 INFO  Log:22 - 24H CHG Value: +3.34%
+2025-05-22 12:13:54 INFO  Log:22 - Row 16: [TON
+/
+USDC, 3.129, $3.12, +1.00%, 3.142, 3.019, 2.2M, $7,776.4M, Trade Details]
+2025-05-22 12:13:54 INFO  Log:22 - 24H CHG Value: +1.00%
+2025-05-22 12:13:54 INFO  Log:22 - Row 17: [DOT
+/
+USDC, 4.797, $4.79, +0.52%, 4.879, 4.614, 3.9M, $7,573.7M, Trade Details]
+2025-05-22 12:13:54 INFO  Log:22 - 24H CHG Value: +0.52%
+2025-05-22 12:13:54 INFO  Log:22 - Row 18: [LTC
+/
+USDC, 98.25, $98.36, +2.24%, 100.2, 94.25, 12.3M, $7,463.2M, Trade Details]
+2025-05-22 12:13:54 INFO  Log:22 - 24H CHG Value: +2.24%
+2025-05-22 12:13:54 INFO  Log:22 - Row 19: [PEPE
+/
+USDC, 0.00001385, $0.000013, 1.42%, 0.00001463, 0.00001281, 141.2M, $5,802.9M, Trade Details]
+2025-05-22 12:13:54 INFO  Log:22 - 24H CHG Value: 1.42%
+2025-05-22 12:13:54 INFO  Log:22 - Row 20: [TAO
+/
+USDC, 471.1, $469.53, +10.80%, 472.8, 410.8, 13.3M, $4,155.1M, Trade Details]
+2025-05-22 12:13:54 INFO  Log:22 - 24H CHG Value: +10.80%
+2025-05-22 12:13:54 INFO  Log:16 - =====================================verifyThatUserIsAbleToClickOnALLSectionInFIATMarketSectionAndAbleToValidateTheTableDataTest TEST END=========================================
+2025-05-22 12:14:11 INFO  Log:12 - =====================================verifyThatUserIsAbleToClickOnBNBSectionInALTSMarketSectionAndAbleToValidateTheTableDataTest TEST START=========================================
+2025-05-22 12:14:12 INFO  Log:22 - Clicked on Markets Header Menu Button
+2025-05-22 12:14:16 INFO  Log:22 - Clicked on spot marktes section
+2025-05-22 12:14:19 INFO  Log:22 - Clicked on ALTS Market section
+2025-05-22 12:14:22 INFO  Log:22 - Clicked on BNB section in ALT Market
+2025-05-22 12:14:34 INFO  Log:22 - BNB - ALTS Markets Table Data: {bodyRows=[[XRP
+/
+BNB, 0.0035266, $2.4, 2.24%, 0.003645, 0.0035052, 447.76, $140,766.8M, Trade Details], [SOL
+/
+BNB, 0.2586, $176.01, 0.23%, 0.2632, 0.2495, 3,277.40, $91,531.8M, Trade Details], [ADA
+/
+BNB, 0.001158, $0.78, 0.09%, 0.00117, 0.001119, 144.05, $27,797M, Trade Details], [TRX
+/
+BNB, 0.0004007, $0.27, 2.48%, 0.0004179, 0.0003926, 187.60, $25,853.1M, Trade Details], [SUI
+/
+BNB, 0.005947, $4.04, +0.54%, 0.006075, 0.005727, 299.17, $13,497.5M, Trade Details], [LINK
+/
+BNB, 0.02393, $16.25, 1.36%, 0.02479, 0.02337, 105.03, $10,680.7M, Trade Details], [AVAX
+/
+BNB, 0.03533, $24.01, +2.08%, 0.03548, 0.03357, 102.43, $10,107.7M, Trade Details], [HBAR
+/
+BNB, 0.00029432, $0.20, 1.86%, 0.00030249, 0.00028941, 435.48, $8,455.7M, Trade Details], [BCH
+/
+BNB, 0.6123, $414.91, +1.04%, 0.623, 0.5967, 76.33, $8,245.5M, Trade Details], [DOT
+/
+BNB, 0.00704, $4.79, 1.95%, 0.00727, 0.00698, 19.45, $7,573.7M, Trade Details], [LTC
+/
+BNB, 0.144, $98.36, 0.90%, 0.1467, 0.1417, 131.18, $7,463.2M, Trade Details], [NEAR
+/
+BNB, 0.004289, $2.93, +0.28%, 0.004421, 0.004143, 19.75, $3,564.3M, Trade Details], [ETC
+/
+BNB, 0.02841, $19.36, +0.28%, 0.029, 0.02634, 43.84, $2,942.1M, Trade Details], [POL
+/
+BNB, 0.0003639, $0.24, +2.77%, 0.0003661, 0.000351, 86.88, $2,589.7M, Trade Details], [VET
+/
+BNB, 0.00004378, $0.029, 0.34%, 0.00004423, 0.00004214, 14.86, $2,565.6M, Trade Details], [ENA
+/
+BNB, 0.0005929, $0.40, 1.08%, 0.0006166, 0.0005773, 48.09, $2,356.7M, Trade Details], [FET
+/
+BNB, 0.001192, $0.81, 0.83%, 0.00124, 0.001166, 283.46, $1,947.6M, Trade Details], [STX
+/
+BNB, 0.00144, $0.98, +3.67%, 0.001466, 0.001343, 26.24, $1,501.2M, Trade Details], [S
+/
+BNB, 0.000761, $0.51, 1.68%, 0.00078, 0.000745, 94.56, $1,496.3M, Trade Details], [INJ
+/
+BNB, 0.01899, $12.96, +1.82%, 0.01911, 0.01797, 138.39, $1,296M, Trade Details]], headers=[[Pair, Last Price, , 24h CHG, 24h High, 24h Low, 24h Volume, Market Cap, Action]]}
+2025-05-22 12:14:36 INFO  Log:22 - Table Headers:
+2025-05-22 12:14:36 INFO  Log:22 - Header Row 1: [Pair, Last Price, , 24h CHG, 24h High, 24h Low, 24h Volume, Market Cap, Action]
+2025-05-22 12:14:38 INFO  Log:22 - Table Body Rows:
+2025-05-22 12:14:38 INFO  Log:22 - Row 1: [XRP
+/
+BNB, 0.0035266, $2.4, 2.24%, 0.003645, 0.0035052, 447.76, $140,766.8M, Trade Details]
+2025-05-22 12:14:38 INFO  Log:22 - Trade pair is: XRP
+/
+BNB
+2025-05-22 12:14:38 INFO  Log:22 - 24H CHG Value: 2.24%
+2025-05-22 12:14:38 INFO  Log:22 - Row 2: [SOL
+/
+BNB, 0.2586, $176.01, 0.23%, 0.2632, 0.2495, 3,277.40, $91,531.8M, Trade Details]
+2025-05-22 12:14:38 INFO  Log:22 - Trade pair is: SOL
+/
+BNB
+2025-05-22 12:14:38 INFO  Log:22 - 24H CHG Value: 0.23%
+2025-05-22 12:14:38 INFO  Log:22 - Row 3: [ADA
+/
+BNB, 0.001158, $0.78, 0.09%, 0.00117, 0.001119, 144.05, $27,797M, Trade Details]
+2025-05-22 12:14:38 INFO  Log:22 - Trade pair is: ADA
+/
+BNB
+2025-05-22 12:14:38 INFO  Log:22 - 24H CHG Value: 0.09%
+2025-05-22 12:14:38 INFO  Log:22 - Row 4: [TRX
+/
+BNB, 0.0004007, $0.27, 2.48%, 0.0004179, 0.0003926, 187.60, $25,853.1M, Trade Details]
+2025-05-22 12:14:38 INFO  Log:22 - Trade pair is: TRX
+/
+BNB
+2025-05-22 12:14:38 INFO  Log:22 - 24H CHG Value: 2.48%
+2025-05-22 12:14:38 INFO  Log:22 - Row 5: [SUI
+/
+BNB, 0.005947, $4.04, +0.54%, 0.006075, 0.005727, 299.17, $13,497.5M, Trade Details]
+2025-05-22 12:14:38 INFO  Log:22 - Trade pair is: SUI
+/
+BNB
+2025-05-22 12:14:38 INFO  Log:22 - 24H CHG Value: +0.54%
+2025-05-22 12:14:38 INFO  Log:22 - Row 6: [LINK
+/
+BNB, 0.02393, $16.25, 1.36%, 0.02479, 0.02337, 105.03, $10,680.7M, Trade Details]
+2025-05-22 12:14:38 INFO  Log:22 - Trade pair is: LINK
+/
+BNB
+2025-05-22 12:14:38 INFO  Log:22 - 24H CHG Value: 1.36%
+2025-05-22 12:14:38 INFO  Log:22 - Row 7: [AVAX
+/
+BNB, 0.03533, $24.01, +2.08%, 0.03548, 0.03357, 102.43, $10,107.7M, Trade Details]
+2025-05-22 12:14:38 INFO  Log:22 - Trade pair is: AVAX
+/
+BNB
+2025-05-22 12:14:38 INFO  Log:22 - 24H CHG Value: +2.08%
+2025-05-22 12:14:38 INFO  Log:22 - Row 8: [HBAR
+/
+BNB, 0.00029432, $0.20, 1.86%, 0.00030249, 0.00028941, 435.48, $8,455.7M, Trade Details]
+2025-05-22 12:14:38 INFO  Log:22 - Trade pair is: HBAR
+/
+BNB
+2025-05-22 12:14:38 INFO  Log:22 - 24H CHG Value: 1.86%
+2025-05-22 12:14:38 INFO  Log:22 - Row 9: [BCH
+/
+BNB, 0.6123, $414.91, +1.04%, 0.623, 0.5967, 76.33, $8,245.5M, Trade Details]
+2025-05-22 12:14:38 INFO  Log:22 - Trade pair is: BCH
+/
+BNB
+2025-05-22 12:14:38 INFO  Log:22 - 24H CHG Value: +1.04%
+2025-05-22 12:14:38 INFO  Log:22 - Row 10: [DOT
+/
+BNB, 0.00704, $4.79, 1.95%, 0.00727, 0.00698, 19.45, $7,573.7M, Trade Details]
+2025-05-22 12:14:38 INFO  Log:22 - Trade pair is: DOT
+/
+BNB
+2025-05-22 12:14:38 INFO  Log:22 - 24H CHG Value: 1.95%
+2025-05-22 12:14:38 INFO  Log:22 - Row 11: [LTC
+/
+BNB, 0.144, $98.36, 0.90%, 0.1467, 0.1417, 131.18, $7,463.2M, Trade Details]
+2025-05-22 12:14:38 INFO  Log:22 - Trade pair is: LTC
+/
+BNB
+2025-05-22 12:14:38 INFO  Log:22 - 24H CHG Value: 0.90%
+2025-05-22 12:14:38 INFO  Log:22 - Row 12: [NEAR
+/
+BNB, 0.004289, $2.93, +0.28%, 0.004421, 0.004143, 19.75, $3,564.3M, Trade Details]
+2025-05-22 12:14:38 INFO  Log:22 - Trade pair is: NEAR
+/
+BNB
+2025-05-22 12:14:38 INFO  Log:22 - 24H CHG Value: +0.28%
+2025-05-22 12:14:38 INFO  Log:22 - Row 13: [ETC
+/
+BNB, 0.02841, $19.36, +0.28%, 0.029, 0.02634, 43.84, $2,942.1M, Trade Details]
+2025-05-22 12:14:38 INFO  Log:22 - Trade pair is: ETC
+/
+BNB
+2025-05-22 12:14:38 INFO  Log:22 - 24H CHG Value: +0.28%
+2025-05-22 12:14:38 INFO  Log:22 - Row 14: [POL
+/
+BNB, 0.0003639, $0.24, +2.77%, 0.0003661, 0.000351, 86.88, $2,589.7M, Trade Details]
+2025-05-22 12:14:38 INFO  Log:22 - Trade pair is: POL
+/
+BNB
+2025-05-22 12:14:38 INFO  Log:22 - 24H CHG Value: +2.77%
+2025-05-22 12:14:38 INFO  Log:22 - Row 15: [VET
+/
+BNB, 0.00004378, $0.029, 0.34%, 0.00004423, 0.00004214, 14.86, $2,565.6M, Trade Details]
+2025-05-22 12:14:38 INFO  Log:22 - Trade pair is: VET
+/
+BNB
+2025-05-22 12:14:38 INFO  Log:22 - 24H CHG Value: 0.34%
+2025-05-22 12:14:38 INFO  Log:22 - Row 16: [ENA
+/
+BNB, 0.0005929, $0.40, 1.08%, 0.0006166, 0.0005773, 48.09, $2,356.7M, Trade Details]
+2025-05-22 12:14:38 INFO  Log:22 - Trade pair is: ENA
+/
+BNB
+2025-05-22 12:14:38 INFO  Log:22 - 24H CHG Value: 1.08%
+2025-05-22 12:14:38 INFO  Log:22 - Row 17: [FET
+/
+BNB, 0.001192, $0.81, 0.83%, 0.00124, 0.001166, 283.46, $1,947.6M, Trade Details]
+2025-05-22 12:14:38 INFO  Log:22 - Trade pair is: FET
+/
+BNB
+2025-05-22 12:14:38 INFO  Log:22 - 24H CHG Value: 0.83%
+2025-05-22 12:14:38 INFO  Log:22 - Row 18: [STX
+/
+BNB, 0.00144, $0.98, +3.67%, 0.001466, 0.001343, 26.24, $1,501.2M, Trade Details]
+2025-05-22 12:14:38 INFO  Log:22 - Trade pair is: STX
+/
+BNB
+2025-05-22 12:14:38 INFO  Log:22 - 24H CHG Value: +3.67%
+2025-05-22 12:14:38 INFO  Log:22 - Row 19: [S
+/
+BNB, 0.000761, $0.51, 1.68%, 0.00078, 0.000745, 94.56, $1,496.3M, Trade Details]
+2025-05-22 12:14:38 INFO  Log:22 - Trade pair is: S
+/
+BNB
+2025-05-22 12:14:38 INFO  Log:22 - 24H CHG Value: 1.68%
+2025-05-22 12:14:38 INFO  Log:22 - Row 20: [INJ
+/
+BNB, 0.01899, $12.96, +1.82%, 0.01911, 0.01797, 138.39, $1,296M, Trade Details]
+2025-05-22 12:14:38 INFO  Log:22 - Trade pair is: INJ
+/
+BNB
+2025-05-22 12:14:38 INFO  Log:22 - 24H CHG Value: +1.82%
+2025-05-22 12:14:38 INFO  Log:16 - =====================================verifyThatUserIsAbleToClickOnBNBSectionInALTSMarketSectionAndAbleToValidateTheTableDataTest TEST END=========================================
+2025-05-22 12:15:27 INFO  Log:12 - =====================================verifyThatUserIsAbleToClickOnBTCMarketSectionAndAbleToValidateTheTableDataTest TEST START=========================================
+2025-05-22 12:15:28 INFO  Log:22 - Clicked on Markets Header Menu Button
+2025-05-22 12:15:32 INFO  Log:22 - Clicked on spot marktes section
+2025-05-22 12:15:37 INFO  Log:22 - Clicked on BTC Market section
+2025-05-22 12:15:52 INFO  Log:22 - BTC Markets Table Data: {bodyRows=[[ETH
+/
+BTC, 0.02363, $2,613.89, 2.15%, 0.02415, 0.02304, 1,111.97, $315,567.5M, Trade Details], [XRP
+/
+BTC, 0.00002166, $2.4, 1.95%, 0.00002216, 0.0000216, 97.24, $140,766.8M, Trade Details], [BNB
+/
+BTC, 0.006139, $680.19, +0.25%, 0.006276, 0.006027, 100.52, $95,831.2M, Trade Details], [SOL
+/
+BTC, 0.0015899, $176.01, +0.18%, 0.0015965, 0.001552, 253.96, $91,531.8M, Trade Details], [DOGE
+/
+BTC, 0.00000215, $0.23, +0.00%, 0.00000222, 0.00000208, 93.62, $35,529.1M, Trade Details], [ADA
+/
+BTC, 0.00000712, $0.78, +0.42%, 0.00000717, 0.00000695, 29.47, $27,797M, Trade Details], [TRX
+/
+BTC, 0.00000245, $0.27, 2.78%, 0.00000256, 0.00000241, 31.68, $25,853.1M, Trade Details], [WBTC
+/
+BTC, 0.9981, $110,633.99, 0.08%, 0.9991, 0.9977, 470.38, $14,269.3M, Trade Details], [SUI
+/
+BTC, 0.0000365, $4.04, +0.75%, 0.00003708, 0.00002972, 84.13, $13,497.5M, Trade Details], [LINK
+/
+BTC, 0.0001471, $16.25, 1.14%, 0.0001522, 0.0001454, 14.73, $10,680.7M, Trade Details], [AVAX
+/
+BTC, 0.0002171, $24.01, +2.12%, 0.0002171, 0.0002093, 26.77, $10,107.7M, Trade Details], [XLM
+/
+BTC, 0.00000268, $0.29, 0.74%, 0.00000273, 0.00000266, 6.91, $9,226.8M, Trade Details], [HBAR
+/
+BTC, 0.00000181, $0.20, 1.63%, 0.00000185, 0.00000179, 9.14, $8,455.7M, Trade Details], [BCH
+/
+BTC, 0.003744, $414.91, +0.84%, 0.003848, 0.003702, 11.57, $8,245.5M, Trade Details], [TON
+/
+BTC, 0.00002826, $3.12, 1.33%, 0.00002884, 0.00002794, 0.96, $7,776.4M, Trade Details], [DOT
+/
+BTC, 0.0000433, $4.79, 2.04%, 0.0000444, 0.0000431, 7.62, $7,573.7M, Trade Details], [LTC
+/
+BTC, 0.000887, $98.36, 0.34%, 0.0009, 0.00088, 36.43, $7,463.2M, Trade Details], [TAO
+/
+BTC, 0.00425, $469.53, +7.95%, 0.004252, 0.003865, 13.84, $4,155.1M, Trade Details], [UNI
+/
+BTC, 0.000057, $6.3, 4.84%, 0.0000603, 0.0000561, 7.10, $3,963.1M, Trade Details], [AAVE
+/
+BTC, 0.002274, $251.58, 5.76%, 0.002451, 0.00225, 28.80, $3,808.3M, Trade Details]], headers=[[Pair, Last Price, , 24h CHG, 24h High, 24h Low, 24h Volume, Market Cap, Action]]}
+2025-05-22 12:15:54 INFO  Log:22 - Table Headers:
+2025-05-22 12:15:54 INFO  Log:22 - Header Row 1: [Pair, Last Price, , 24h CHG, 24h High, 24h Low, 24h Volume, Market Cap, Action]
+2025-05-22 12:15:56 INFO  Log:22 - Table Body Rows:
+2025-05-22 12:15:56 INFO  Log:22 - Row 1: [ETH
+/
+BTC, 0.02363, $2,613.89, 2.15%, 0.02415, 0.02304, 1,111.97, $315,567.5M, Trade Details]
+2025-05-22 12:15:56 INFO  Log:22 - Trade pair is: ETH
+/
+BTC
+2025-05-22 12:15:56 INFO  Log:22 - 24H CHG Value: 2.15%
+2025-05-22 12:15:56 INFO  Log:22 - Row 2: [XRP
+/
+BTC, 0.00002166, $2.4, 1.95%, 0.00002216, 0.0000216, 97.24, $140,766.8M, Trade Details]
+2025-05-22 12:15:56 INFO  Log:22 - Trade pair is: XRP
+/
+BTC
+2025-05-22 12:15:56 INFO  Log:22 - 24H CHG Value: 1.95%
+2025-05-22 12:15:56 INFO  Log:22 - Row 3: [BNB
+/
+BTC, 0.006139, $680.19, +0.25%, 0.006276, 0.006027, 100.52, $95,831.2M, Trade Details]
+2025-05-22 12:15:56 INFO  Log:22 - Trade pair is: BNB
+/
+BTC
+2025-05-22 12:15:56 INFO  Log:22 - 24H CHG Value: +0.25%
+2025-05-22 12:15:56 INFO  Log:22 - Row 4: [SOL
+/
+BTC, 0.0015899, $176.01, +0.18%, 0.0015965, 0.001552, 253.96, $91,531.8M, Trade Details]
+2025-05-22 12:15:56 INFO  Log:22 - Trade pair is: SOL
+/
+BTC
+2025-05-22 12:15:56 INFO  Log:22 - 24H CHG Value: +0.18%
+2025-05-22 12:15:56 INFO  Log:22 - Row 5: [DOGE
+/
+BTC, 0.00000215, $0.23, +0.00%, 0.00000222, 0.00000208, 93.62, $35,529.1M, Trade Details]
+2025-05-22 12:15:56 INFO  Log:22 - Trade pair is: DOGE
+/
+BTC
+2025-05-22 12:15:56 INFO  Log:22 - 24H CHG Value: +0.00%
+2025-05-22 12:15:56 INFO  Log:22 - Row 6: [ADA
+/
+BTC, 0.00000712, $0.78, +0.42%, 0.00000717, 0.00000695, 29.47, $27,797M, Trade Details]
+2025-05-22 12:15:56 INFO  Log:22 - Trade pair is: ADA
+/
+BTC
+2025-05-22 12:15:56 INFO  Log:22 - 24H CHG Value: +0.42%
+2025-05-22 12:15:56 INFO  Log:22 - Row 7: [TRX
+/
+BTC, 0.00000245, $0.27, 2.78%, 0.00000256, 0.00000241, 31.68, $25,853.1M, Trade Details]
+2025-05-22 12:15:56 INFO  Log:22 - Trade pair is: TRX
+/
+BTC
+2025-05-22 12:15:56 INFO  Log:22 - 24H CHG Value: 2.78%
+2025-05-22 12:15:56 INFO  Log:22 - Row 8: [WBTC
+/
+BTC, 0.9981, $110,633.99, 0.08%, 0.9991, 0.9977, 470.38, $14,269.3M, Trade Details]
+2025-05-22 12:15:56 INFO  Log:22 - Trade pair is: WBTC
+/
+BTC
+2025-05-22 12:15:56 INFO  Log:22 - 24H CHG Value: 0.08%
+2025-05-22 12:15:56 INFO  Log:22 - Row 9: [SUI
+/
+BTC, 0.0000365, $4.04, +0.75%, 0.00003708, 0.00002972, 84.13, $13,497.5M, Trade Details]
+2025-05-22 12:15:56 INFO  Log:22 - Trade pair is: SUI
+/
+BTC
+2025-05-22 12:15:56 INFO  Log:22 - 24H CHG Value: +0.75%
+2025-05-22 12:15:56 INFO  Log:22 - Row 10: [LINK
+/
+BTC, 0.0001471, $16.25, 1.14%, 0.0001522, 0.0001454, 14.73, $10,680.7M, Trade Details]
+2025-05-22 12:15:56 INFO  Log:22 - Trade pair is: LINK
+/
+BTC
+2025-05-22 12:15:56 INFO  Log:22 - 24H CHG Value: 1.14%
+2025-05-22 12:15:56 INFO  Log:22 - Row 11: [AVAX
+/
+BTC, 0.0002171, $24.01, +2.12%, 0.0002171, 0.0002093, 26.77, $10,107.7M, Trade Details]
+2025-05-22 12:15:56 INFO  Log:22 - Trade pair is: AVAX
+/
+BTC
+2025-05-22 12:15:56 INFO  Log:22 - 24H CHG Value: +2.12%
+2025-05-22 12:15:56 INFO  Log:22 - Row 12: [XLM
+/
+BTC, 0.00000268, $0.29, 0.74%, 0.00000273, 0.00000266, 6.91, $9,226.8M, Trade Details]
+2025-05-22 12:15:56 INFO  Log:22 - Trade pair is: XLM
+/
+BTC
+2025-05-22 12:15:56 INFO  Log:22 - 24H CHG Value: 0.74%
+2025-05-22 12:15:56 INFO  Log:22 - Row 13: [HBAR
+/
+BTC, 0.00000181, $0.20, 1.63%, 0.00000185, 0.00000179, 9.14, $8,455.7M, Trade Details]
+2025-05-22 12:15:56 INFO  Log:22 - Trade pair is: HBAR
+/
+BTC
+2025-05-22 12:15:56 INFO  Log:22 - 24H CHG Value: 1.63%
+2025-05-22 12:15:56 INFO  Log:22 - Row 14: [BCH
+/
+BTC, 0.003744, $414.91, +0.84%, 0.003848, 0.003702, 11.57, $8,245.5M, Trade Details]
+2025-05-22 12:15:56 INFO  Log:22 - Trade pair is: BCH
+/
+BTC
+2025-05-22 12:15:56 INFO  Log:22 - 24H CHG Value: +0.84%
+2025-05-22 12:15:56 INFO  Log:22 - Row 15: [TON
+/
+BTC, 0.00002826, $3.12, 1.33%, 0.00002884, 0.00002794, 0.96, $7,776.4M, Trade Details]
+2025-05-22 12:15:56 INFO  Log:22 - Trade pair is: TON
+/
+BTC
+2025-05-22 12:15:56 INFO  Log:22 - 24H CHG Value: 1.33%
+2025-05-22 12:15:56 INFO  Log:22 - Row 16: [DOT
+/
+BTC, 0.0000433, $4.79, 2.04%, 0.0000444, 0.0000431, 7.62, $7,573.7M, Trade Details]
+2025-05-22 12:15:56 INFO  Log:22 - Trade pair is: DOT
+/
+BTC
+2025-05-22 12:15:56 INFO  Log:22 - 24H CHG Value: 2.04%
+2025-05-22 12:15:56 INFO  Log:22 - Row 17: [LTC
+/
+BTC, 0.000887, $98.36, 0.34%, 0.0009, 0.00088, 36.43, $7,463.2M, Trade Details]
+2025-05-22 12:15:56 INFO  Log:22 - Trade pair is: LTC
+/
+BTC
+2025-05-22 12:15:56 INFO  Log:22 - 24H CHG Value: 0.34%
+2025-05-22 12:15:56 INFO  Log:22 - Row 18: [TAO
+/
+BTC, 0.00425, $469.53, +7.95%, 0.004252, 0.003865, 13.84, $4,155.1M, Trade Details]
+2025-05-22 12:15:56 INFO  Log:22 - Trade pair is: TAO
+/
+BTC
+2025-05-22 12:15:56 INFO  Log:22 - 24H CHG Value: +7.95%
+2025-05-22 12:15:56 INFO  Log:22 - Row 19: [UNI
+/
+BTC, 0.000057, $6.3, 4.84%, 0.0000603, 0.0000561, 7.10, $3,963.1M, Trade Details]
+2025-05-22 12:15:56 INFO  Log:22 - Trade pair is: UNI
+/
+BTC
+2025-05-22 12:15:56 INFO  Log:22 - 24H CHG Value: 4.84%
+2025-05-22 12:15:56 INFO  Log:22 - Row 20: [AAVE
+/
+BTC, 0.002274, $251.58, 5.76%, 0.002451, 0.00225, 28.80, $3,808.3M, Trade Details]
+2025-05-22 12:15:56 INFO  Log:22 - Trade pair is: AAVE
+/
+BTC
+2025-05-22 12:15:56 INFO  Log:22 - 24H CHG Value: 5.76%
+2025-05-22 12:15:56 INFO  Log:16 - =====================================verifyThatUserIsAbleToClickOnBTCMarketSectionAndAbleToValidateTheTableDataTest TEST END=========================================
+2025-05-22 12:16:23 INFO  Log:12 - =====================================verifyThatUserIsAbleToClickOnETHMarketSectionAndAbleToValidateTheTableDataTest TEST START=========================================
+2025-05-22 12:16:25 INFO  Log:22 - Clicked on Markets Header Menu Button
+2025-05-22 12:16:28 INFO  Log:22 - Clicked on spot marktes section
+2025-05-22 12:16:28 INFO  Log:22 - Clicked on All tab in spot markets: 
+2025-05-22 12:16:31 INFO  Log:22 - Clicked on ETH Market section
+2025-05-22 12:16:43 INFO  Log:22 - ETH Markets Table Data: {bodyRows=[[XRP
+/
+ETH, 0.0009154, $2.4, 0.13%, 0.000956, 0.0009134, 855.65, $140,890M, Trade Details], [BNB
+/
+ETH, 0.2598, $680.77, +2.32%, 0.2713, 0.2538, 4,414.12, $95,912.9M, Trade Details], [SOL
+/
+ETH, 0.06728, $176.24, +2.30%, 0.06825, 0.06577, 3,596.65, $91,651.5M, Trade Details], [ADA
+/
+ETH, 0.0003012, $0.78, +2.38%, 0.0003053, 0.0002942, 342.17, $27,867.6M, Trade Details], [TRX
+/
+ETH, 0.00010401, $0.27, 0.45%, 0.00010959, 0.0001022, 506.74, $25,862.6M, Trade Details], [WBTC
+/
+ETH, 42.35, $110,675.97, +2.05%, 43.31, 41.5, 33.26, $14,274.7M, Trade Details], [LINK
+/
+ETH, 0.006225, $16.3, +1.06%, 0.006401, 0.006157, 242.70, $10,713.6M, Trade Details], [AVAX
+/
+ETH, 0.0092, $24.09, +4.55%, 0.00922, 0.0088, 56.22, $10,141.4M, Trade Details], [XLM
+/
+ETH, 0.00011343, $0.29, +1.26%, 0.00011706, 0.00011202, 141.15, $9,233M, Trade Details], [DOT
+/
+ETH, 0.001832, $4.8, 0.06%, 0.001899, 0.001826, 68.43, $7,587.9M, Trade Details], [LTC
+/
+ETH, 0.03752, $98.31, +1.60%, 0.0387, 0.03692, 287.42, $7,459.4M, Trade Details], [WBETH
+/
+ETH, 1.0693, $2,793.24, 0.04%, 1.0699, 1.069, 3,039.28, $6,463.4M, Trade Details], [UNI
+/
+ETH, 0.002411, $6.31, 3.06%, 0.002508, 0.002411, 96.67, $3,969.3M, Trade Details], [AAVE
+/
+ETH, 0.09631, $252.47, 3.91%, 0.1023, 0.09617, 1,039.05, $3,821.8M, Trade Details], [NEAR
+/
+ETH, 0.00112, $2.93, +2.10%, 0.001137, 0.001091, 37.74, $3,572.8M, Trade Details], [APT
+/
+ETH, 0.002049, $5.37, +1.89%, 0.002094, 0.002011, 21.24, $3,392.9M, Trade Details], [ETC
+/
+ETH, 0.0074, $19.39, +2.78%, 0.00755, 0.00719, 57.28, $2,946.7M, Trade Details], [ICP
+/
+ETH, 0.002089, $5.47, +1.16%, 0.002123, 0.002054, 19.03, $2,916.3M, Trade Details], [POL
+/
+ETH, 0.0000949, $0.24, +5.33%, 0.0000957, 0.0000901, 17.12, $2,593.9M, Trade Details], [VET
+/
+ETH, 0.00001141, $0.029, +2.42%, 0.0000115, 0.00001114, 1.92, $2,568.2M, Trade Details]], headers=[[Pair, Last Price, , 24h CHG, 24h High, 24h Low, 24h Volume, Market Cap, Action]]}
+2025-05-22 12:16:45 INFO  Log:22 - Table Headers:
+2025-05-22 12:16:45 INFO  Log:22 - Header Row 1: [Pair, Last Price, , 24h CHG, 24h High, 24h Low, 24h Volume, Market Cap, Action]
+2025-05-22 12:16:47 INFO  Log:22 - Table Body Rows:
+2025-05-22 12:16:47 INFO  Log:22 - Row 1: [XRP
+/
+ETH, 0.0009154, $2.4, 0.13%, 0.000956, 0.0009134, 855.65, $140,890M, Trade Details]
+2025-05-22 12:16:47 INFO  Log:22 - Trade pair is: XRP
+/
+ETH
+2025-05-22 12:16:47 INFO  Log:22 - 24H CHG Value: 0.13%
+2025-05-22 12:16:47 INFO  Log:22 - Row 2: [BNB
+/
+ETH, 0.2598, $680.77, +2.32%, 0.2713, 0.2538, 4,414.12, $95,912.9M, Trade Details]
+2025-05-22 12:16:47 INFO  Log:22 - Trade pair is: BNB
+/
+ETH
+2025-05-22 12:16:47 INFO  Log:22 - 24H CHG Value: +2.32%
+2025-05-22 12:16:47 INFO  Log:22 - Row 3: [SOL
+/
+ETH, 0.06728, $176.24, +2.30%, 0.06825, 0.06577, 3,596.65, $91,651.5M, Trade Details]
+2025-05-22 12:16:47 INFO  Log:22 - Trade pair is: SOL
+/
+ETH
+2025-05-22 12:16:47 INFO  Log:22 - 24H CHG Value: +2.30%
+2025-05-22 12:16:47 INFO  Log:22 - Row 4: [ADA
+/
+ETH, 0.0003012, $0.78, +2.38%, 0.0003053, 0.0002942, 342.17, $27,867.6M, Trade Details]
+2025-05-22 12:16:47 INFO  Log:22 - Trade pair is: ADA
+/
+ETH
+2025-05-22 12:16:47 INFO  Log:22 - 24H CHG Value: +2.38%
+2025-05-22 12:16:47 INFO  Log:22 - Row 5: [TRX
+/
+ETH, 0.00010401, $0.27, 0.45%, 0.00010959, 0.0001022, 506.74, $25,862.6M, Trade Details]
+2025-05-22 12:16:47 INFO  Log:22 - Trade pair is: TRX
+/
+ETH
+2025-05-22 12:16:47 INFO  Log:22 - 24H CHG Value: 0.45%
+2025-05-22 12:16:47 INFO  Log:22 - Row 6: [WBTC
+/
+ETH, 42.35, $110,675.97, +2.05%, 43.31, 41.5, 33.26, $14,274.7M, Trade Details]
+2025-05-22 12:16:47 INFO  Log:22 - Trade pair is: WBTC
+/
+ETH
+2025-05-22 12:16:47 INFO  Log:22 - 24H CHG Value: +2.05%
+2025-05-22 12:16:47 INFO  Log:22 - Row 7: [LINK
+/
+ETH, 0.006225, $16.3, +1.06%, 0.006401, 0.006157, 242.70, $10,713.6M, Trade Details]
+2025-05-22 12:16:47 INFO  Log:22 - Trade pair is: LINK
+/
+ETH
+2025-05-22 12:16:47 INFO  Log:22 - 24H CHG Value: +1.06%
+2025-05-22 12:16:47 INFO  Log:22 - Row 8: [AVAX
+/
+ETH, 0.0092, $24.09, +4.55%, 0.00922, 0.0088, 56.22, $10,141.4M, Trade Details]
+2025-05-22 12:16:47 INFO  Log:22 - Trade pair is: AVAX
+/
+ETH
+2025-05-22 12:16:47 INFO  Log:22 - 24H CHG Value: +4.55%
+2025-05-22 12:16:47 INFO  Log:22 - Row 9: [XLM
+/
+ETH, 0.00011343, $0.29, +1.26%, 0.00011706, 0.00011202, 141.15, $9,233M, Trade Details]
+2025-05-22 12:16:47 INFO  Log:22 - Trade pair is: XLM
+/
+ETH
+2025-05-22 12:16:47 INFO  Log:22 - 24H CHG Value: +1.26%
+2025-05-22 12:16:47 INFO  Log:22 - Row 10: [DOT
+/
+ETH, 0.001832, $4.8, 0.06%, 0.001899, 0.001826, 68.43, $7,587.9M, Trade Details]
+2025-05-22 12:16:47 INFO  Log:22 - Trade pair is: DOT
+/
+ETH
+2025-05-22 12:16:47 INFO  Log:22 - 24H CHG Value: 0.06%
+2025-05-22 12:16:47 INFO  Log:22 - Row 11: [LTC
+/
+ETH, 0.03752, $98.31, +1.60%, 0.0387, 0.03692, 287.42, $7,459.4M, Trade Details]
+2025-05-22 12:16:47 INFO  Log:22 - Trade pair is: LTC
+/
+ETH
+2025-05-22 12:16:47 INFO  Log:22 - 24H CHG Value: +1.60%
+2025-05-22 12:16:47 INFO  Log:22 - Row 12: [WBETH
+/
+ETH, 1.0693, $2,793.24, 0.04%, 1.0699, 1.069, 3,039.28, $6,463.4M, Trade Details]
+2025-05-22 12:16:47 INFO  Log:22 - Trade pair is: WBETH
+/
+ETH
+2025-05-22 12:16:47 INFO  Log:22 - 24H CHG Value: 0.04%
+2025-05-22 12:16:47 INFO  Log:22 - Row 13: [UNI
+/
+ETH, 0.002411, $6.31, 3.06%, 0.002508, 0.002411, 96.67, $3,969.3M, Trade Details]
+2025-05-22 12:16:47 INFO  Log:22 - Trade pair is: UNI
+/
+ETH
+2025-05-22 12:16:47 INFO  Log:22 - 24H CHG Value: 3.06%
+2025-05-22 12:16:47 INFO  Log:22 - Row 14: [AAVE
+/
+ETH, 0.09631, $252.47, 3.91%, 0.1023, 0.09617, 1,039.05, $3,821.8M, Trade Details]
+2025-05-22 12:16:47 INFO  Log:22 - Trade pair is: AAVE
+/
+ETH
+2025-05-22 12:16:47 INFO  Log:22 - 24H CHG Value: 3.91%
+2025-05-22 12:16:47 INFO  Log:22 - Row 15: [NEAR
+/
+ETH, 0.00112, $2.93, +2.10%, 0.001137, 0.001091, 37.74, $3,572.8M, Trade Details]
+2025-05-22 12:16:47 INFO  Log:22 - Trade pair is: NEAR
+/
+ETH
+2025-05-22 12:16:47 INFO  Log:22 - 24H CHG Value: +2.10%
+2025-05-22 12:16:47 INFO  Log:22 - Row 16: [APT
+/
+ETH, 0.002049, $5.37, +1.89%, 0.002094, 0.002011, 21.24, $3,392.9M, Trade Details]
+2025-05-22 12:16:47 INFO  Log:22 - Trade pair is: APT
+/
+ETH
+2025-05-22 12:16:47 INFO  Log:22 - 24H CHG Value: +1.89%
+2025-05-22 12:16:47 INFO  Log:22 - Row 17: [ETC
+/
+ETH, 0.0074, $19.39, +2.78%, 0.00755, 0.00719, 57.28, $2,946.7M, Trade Details]
+2025-05-22 12:16:47 INFO  Log:22 - Trade pair is: ETC
+/
+ETH
+2025-05-22 12:16:47 INFO  Log:22 - 24H CHG Value: +2.78%
+2025-05-22 12:16:47 INFO  Log:22 - Row 18: [ICP
+/
+ETH, 0.002089, $5.47, +1.16%, 0.002123, 0.002054, 19.03, $2,916.3M, Trade Details]
+2025-05-22 12:16:47 INFO  Log:22 - Trade pair is: ICP
+/
+ETH
+2025-05-22 12:16:47 INFO  Log:22 - 24H CHG Value: +1.16%
+2025-05-22 12:16:47 INFO  Log:22 - Row 19: [POL
+/
+ETH, 0.0000949, $0.24, +5.33%, 0.0000957, 0.0000901, 17.12, $2,593.9M, Trade Details]
+2025-05-22 12:16:47 INFO  Log:22 - Trade pair is: POL
+/
+ETH
+2025-05-22 12:16:47 INFO  Log:22 - 24H CHG Value: +5.33%
+2025-05-22 12:16:47 INFO  Log:22 - Row 20: [VET
+/
+ETH, 0.00001141, $0.029, +2.42%, 0.0000115, 0.00001114, 1.92, $2,568.2M, Trade Details]
+2025-05-22 12:16:47 INFO  Log:22 - Trade pair is: VET
+/
+ETH
+2025-05-22 12:16:47 INFO  Log:22 - 24H CHG Value: +2.42%
+2025-05-22 12:16:47 INFO  Log:16 - =====================================verifyThatUserIsAbleToClickOnETHMarketSectionAndAbleToValidateTheTableDataTest TEST END=========================================
+2025-05-22 12:17:08 INFO  Log:12 - =====================================verifyThatUserIsAbleToClickOnFDUSDSectionInFIATMarketSectionAndAbleToValidateTheTableDataTest TEST START=========================================
+2025-05-22 12:17:09 INFO  Log:22 - Clicked on Markets Header Menu Button
+2025-05-22 12:17:12 INFO  Log:22 - Clicked on spot marktes section
+2025-05-22 12:17:15 INFO  Log:22 - Clicked on FIAT Market section
+2025-05-22 12:18:05 INFO  Log:12 - =====================================verifyThatUserIsAbleToClickOnTRXSectionInALTSMarketSectionAndAbleToValidateTheTableDataTest TEST START=========================================
+2025-05-22 12:18:06 INFO  Log:22 - Clicked on Markets Header Menu Button
+2025-05-22 12:18:09 INFO  Log:22 - Clicked on spot marktes section
+2025-05-22 12:18:12 INFO  Log:22 - Clicked on ALTS Market section
+2025-05-22 12:18:15 INFO  Log:22 - Clicked on TRX section in ALT Market
+2025-05-22 12:18:20 INFO  Log:22 - TRX - ALTS Markets Table Data: {bodyRows=[[WIN
+/
+TRX, 0.0002193, $0.000059, +1.72%, 0.0002209, 0.0002141, 80,332.92, $59.4M, Trade Details]], headers=[[Pair, Last Price, , 24h CHG, 24h High, 24h Low, 24h Volume, Market Cap, Action]]}
+2025-05-22 12:18:22 INFO  Log:22 - Table Headers:
+2025-05-22 12:18:22 INFO  Log:22 - Header Row 1: [Pair, Last Price, , 24h CHG, 24h High, 24h Low, 24h Volume, Market Cap, Action]
+2025-05-22 12:18:24 INFO  Log:22 - Table Body Rows:
+2025-05-22 12:18:24 INFO  Log:22 - Row 1: [WIN
+/
+TRX, 0.0002193, $0.000059, +1.72%, 0.0002209, 0.0002141, 80,332.92, $59.4M, Trade Details]
+2025-05-22 12:18:24 INFO  Log:22 - Trade pair is: WIN
+/
+TRX
+2025-05-22 12:18:24 INFO  Log:22 - 24H CHG Value: +1.72%
+2025-05-22 12:18:24 INFO  Log:16 - =====================================verifyThatUserIsAbleToClickOnTRXSectionInALTSMarketSectionAndAbleToValidateTheTableDataTest TEST END=========================================
+2025-05-22 12:18:36 INFO  Log:12 - =====================================verifyThatUserIsAbleToClickOnUSDCSectionInFIATMarketSectionAndAbleToValidateTheTableDataTest TEST START=========================================
+2025-05-22 12:18:37 INFO  Log:22 - Clicked on Markets Header Menu Button
+2025-05-22 12:18:40 INFO  Log:22 - Clicked on spot marktes section
+2025-05-22 12:18:43 INFO  Log:22 - Clicked on FIAT Market section
+2025-05-22 12:18:45 INFO  Log:22 - Clicked on USDC section in FIAT Market
+2025-05-22 12:18:58 INFO  Log:22 - USDC - FIAT Markets Table Data: {bodyRows=[[BTC
+/
+USDC, 110,729.9, $110,780.49, +2.70%, 111,924.16, 106,136.38, 945.8M, $2,200,984.4M, Trade Details], [ETH
+/
+USDC, 2,617.43, $2,617.91, +0.76%, 2,649, 2,453.84, 1,031.7M, $316,052.9M, Trade Details], [XRP
+/
+USDC, 2.4, $2.4, +0.79%, 2.4302, 2.3321, 85.8M, $140,860.7M, Trade Details], [BNB
+/
+USDC, 680.28, $680.39, +2.94%, 689.95, 650.26, 53.9M, $95,859.4M, Trade Details], [SOL
+/
+USDC, 176.15, $176.18, +2.97%, 177.82, 165.59, 270.1M, $91,620.3M, Trade Details], [DOGE
+/
+USDC, 0.23811, $0.23, +2.57%, 0.24378, 0.2228, 66.4M, $35,591.9M, Trade Details], [ADA
+/
+USDC, 0.788, $0.78, +3.09%, 0.7949, 0.7426, 31.8M, $27,846.4M, Trade Details], [TRX
+/
+USDC, 0.2726, $0.27, +0.29%, 0.2745, 0.2659, 5.4M, $25,862.6M, Trade Details], [SUI
+/
+USDC, 4.0386, $4.04, +3.58%, 4.0785, 3.804, 163.9M, $13,486.8M, Trade Details], [LINK
+/
+USDC, 16.3, $16.29, +1.81%, 16.53, 15.56, 16.1M, $10,707M, Trade Details], [AVAX
+/
+USDC, 24.07, $24.09, +5.16%, 24.15, 22.38, 11.4M, $10,141.4M, Trade Details], [XLM
+/
+USDC, 0.2974, $0.29, +2.09%, 0.2992, 0.2847, 2.4M, $9,239.2M, Trade Details], [SHIB
+/
+USDC, 0.000015, $0.000015, +0.94%, 0.00001519, 0.00001429, 3.3M, $8,841.1M, Trade Details], [HBAR
+/
+USDC, 0.20047, $0.20, +1.31%, 0.20247, 0.19246, 14M, $8,468.4M, Trade Details], [BCH
+/
+USDC, 414.8, $414.81, +3.62%, 425.9, 394.5, 3.2M, $8,243.5M, Trade Details], [TON
+/
+USDC, 3.133, $3.13, +1.52%, 3.142, 3.019, 2.2M, $7,806.3M, Trade Details], [DOT
+/
+USDC, 4.801, $4.8, +0.99%, 4.879, 4.614, 3.9M, $7,587.9M, Trade Details], [LTC
+/
+USDC, 98.26, $98.29, +2.38%, 100.2, 94.25, 12.3M, $7,457.9M, Trade Details], [PEPE
+/
+USDC, 0.00001385, $0.000013, 0.65%, 0.00001463, 0.00001281, 141M, $5,828.1M, Trade Details], [TAO
+/
+USDC, 472.1, $472.43, +11.24%, 473.1, 410.8, 13.3M, $4,180.8M, Trade Details]], headers=[[Pair, Last Price, , 24h CHG, 24h High, 24h Low, 24h Volume, Market Cap, Action]]}
+2025-05-22 12:19:00 INFO  Log:22 - Table Headers:
+2025-05-22 12:19:00 INFO  Log:22 - Header Row 1: [Pair, Last Price, , 24h CHG, 24h High, 24h Low, 24h Volume, Market Cap, Action]
+2025-05-22 12:19:02 INFO  Log:22 - Table Body Rows:
+2025-05-22 12:19:02 INFO  Log:22 - Row 1: [BTC
+/
+USDC, 110,729.9, $110,780.49, +2.70%, 111,924.16, 106,136.38, 945.8M, $2,200,984.4M, Trade Details]
+2025-05-22 12:19:02 INFO  Log:22 - Trade pair is: BTC
+/
+USDC
+2025-05-22 12:19:02 INFO  Log:22 - 24H CHG Value: +2.70%
+2025-05-22 12:19:02 INFO  Log:22 - Row 2: [ETH
+/
+USDC, 2,617.43, $2,617.91, +0.76%, 2,649, 2,453.84, 1,031.7M, $316,052.9M, Trade Details]
+2025-05-22 12:19:02 INFO  Log:22 - Trade pair is: ETH
+/
+USDC
+2025-05-22 12:19:02 INFO  Log:22 - 24H CHG Value: +0.76%
+2025-05-22 12:19:02 INFO  Log:22 - Row 3: [XRP
+/
+USDC, 2.4, $2.4, +0.79%, 2.4302, 2.3321, 85.8M, $140,860.7M, Trade Details]
+2025-05-22 12:19:02 INFO  Log:22 - Trade pair is: XRP
+/
+USDC
+2025-05-22 12:19:02 INFO  Log:22 - 24H CHG Value: +0.79%
+2025-05-22 12:19:02 INFO  Log:22 - Row 4: [BNB
+/
+USDC, 680.28, $680.39, +2.94%, 689.95, 650.26, 53.9M, $95,859.4M, Trade Details]
+2025-05-22 12:19:02 INFO  Log:22 - Trade pair is: BNB
+/
+USDC
+2025-05-22 12:19:02 INFO  Log:22 - 24H CHG Value: +2.94%
+2025-05-22 12:19:02 INFO  Log:22 - Row 5: [SOL
+/
+USDC, 176.15, $176.18, +2.97%, 177.82, 165.59, 270.1M, $91,620.3M, Trade Details]
+2025-05-22 12:19:02 INFO  Log:22 - Trade pair is: SOL
+/
+USDC
+2025-05-22 12:19:02 INFO  Log:22 - 24H CHG Value: +2.97%
+2025-05-22 12:19:02 INFO  Log:22 - Row 6: [DOGE
+/
+USDC, 0.23811, $0.23, +2.57%, 0.24378, 0.2228, 66.4M, $35,591.9M, Trade Details]
+2025-05-22 12:19:02 INFO  Log:22 - Trade pair is: DOGE
+/
+USDC
+2025-05-22 12:19:02 INFO  Log:22 - 24H CHG Value: +2.57%
+2025-05-22 12:19:02 INFO  Log:22 - Row 7: [ADA
+/
+USDC, 0.788, $0.78, +3.09%, 0.7949, 0.7426, 31.8M, $27,846.4M, Trade Details]
+2025-05-22 12:19:02 INFO  Log:22 - Trade pair is: ADA
+/
+USDC
+2025-05-22 12:19:02 INFO  Log:22 - 24H CHG Value: +3.09%
+2025-05-22 12:19:02 INFO  Log:22 - Row 8: [TRX
+/
+USDC, 0.2726, $0.27, +0.29%, 0.2745, 0.2659, 5.4M, $25,862.6M, Trade Details]
+2025-05-22 12:19:02 INFO  Log:22 - Trade pair is: TRX
+/
+USDC
+2025-05-22 12:19:02 INFO  Log:22 - 24H CHG Value: +0.29%
+2025-05-22 12:19:02 INFO  Log:22 - Row 9: [SUI
+/
+USDC, 4.0386, $4.04, +3.58%, 4.0785, 3.804, 163.9M, $13,486.8M, Trade Details]
+2025-05-22 12:19:02 INFO  Log:22 - Trade pair is: SUI
+/
+USDC
+2025-05-22 12:19:02 INFO  Log:22 - 24H CHG Value: +3.58%
+2025-05-22 12:19:02 INFO  Log:22 - Row 10: [LINK
+/
+USDC, 16.3, $16.29, +1.81%, 16.53, 15.56, 16.1M, $10,707M, Trade Details]
+2025-05-22 12:19:02 INFO  Log:22 - Trade pair is: LINK
+/
+USDC
+2025-05-22 12:19:02 INFO  Log:22 - 24H CHG Value: +1.81%
+2025-05-22 12:19:02 INFO  Log:22 - Row 11: [AVAX
+/
+USDC, 24.07, $24.09, +5.16%, 24.15, 22.38, 11.4M, $10,141.4M, Trade Details]
+2025-05-22 12:19:02 INFO  Log:22 - Trade pair is: AVAX
+/
+USDC
+2025-05-22 12:19:02 INFO  Log:22 - 24H CHG Value: +5.16%
+2025-05-22 12:19:02 INFO  Log:22 - Row 12: [XLM
+/
+USDC, 0.2974, $0.29, +2.09%, 0.2992, 0.2847, 2.4M, $9,239.2M, Trade Details]
+2025-05-22 12:19:02 INFO  Log:22 - Trade pair is: XLM
+/
+USDC
+2025-05-22 12:19:02 INFO  Log:22 - 24H CHG Value: +2.09%
+2025-05-22 12:19:02 INFO  Log:22 - Row 13: [SHIB
+/
+USDC, 0.000015, $0.000015, +0.94%, 0.00001519, 0.00001429, 3.3M, $8,841.1M, Trade Details]
+2025-05-22 12:19:02 INFO  Log:22 - Trade pair is: SHIB
+/
+USDC
+2025-05-22 12:19:02 INFO  Log:22 - 24H CHG Value: +0.94%
+2025-05-22 12:19:02 INFO  Log:22 - Row 14: [HBAR
+/
+USDC, 0.20047, $0.20, +1.31%, 0.20247, 0.19246, 14M, $8,468.4M, Trade Details]
+2025-05-22 12:19:02 INFO  Log:22 - Trade pair is: HBAR
+/
+USDC
+2025-05-22 12:19:02 INFO  Log:22 - 24H CHG Value: +1.31%
+2025-05-22 12:19:02 INFO  Log:22 - Row 15: [BCH
+/
+USDC, 414.8, $414.81, +3.62%, 425.9, 394.5, 3.2M, $8,243.5M, Trade Details]
+2025-05-22 12:19:02 INFO  Log:22 - Trade pair is: BCH
+/
+USDC
+2025-05-22 12:19:02 INFO  Log:22 - 24H CHG Value: +3.62%
+2025-05-22 12:19:02 INFO  Log:22 - Row 16: [TON
+/
+USDC, 3.133, $3.13, +1.52%, 3.142, 3.019, 2.2M, $7,806.3M, Trade Details]
+2025-05-22 12:19:02 INFO  Log:22 - Trade pair is: TON
+/
+USDC
+2025-05-22 12:19:02 INFO  Log:22 - 24H CHG Value: +1.52%
+2025-05-22 12:19:02 INFO  Log:22 - Row 17: [DOT
+/
+USDC, 4.801, $4.8, +0.99%, 4.879, 4.614, 3.9M, $7,587.9M, Trade Details]
+2025-05-22 12:19:02 INFO  Log:22 - Trade pair is: DOT
+/
+USDC
+2025-05-22 12:19:02 INFO  Log:22 - 24H CHG Value: +0.99%
+2025-05-22 12:19:02 INFO  Log:22 - Row 18: [LTC
+/
+USDC, 98.26, $98.29, +2.38%, 100.2, 94.25, 12.3M, $7,457.9M, Trade Details]
+2025-05-22 12:19:02 INFO  Log:22 - Trade pair is: LTC
+/
+USDC
+2025-05-22 12:19:02 INFO  Log:22 - 24H CHG Value: +2.38%
+2025-05-22 12:19:02 INFO  Log:22 - Row 19: [PEPE
+/
+USDC, 0.00001385, $0.000013, 0.65%, 0.00001463, 0.00001281, 141M, $5,828.1M, Trade Details]
+2025-05-22 12:19:02 INFO  Log:22 - Trade pair is: PEPE
+/
+USDC
+2025-05-22 12:19:02 INFO  Log:22 - 24H CHG Value: 0.65%
+2025-05-22 12:19:02 INFO  Log:22 - Row 20: [TAO
+/
+USDC, 472.1, $472.43, +11.24%, 473.1, 410.8, 13.3M, $4,180.8M, Trade Details]
+2025-05-22 12:19:02 INFO  Log:22 - Trade pair is: TAO
+/
+USDC
+2025-05-22 12:19:02 INFO  Log:22 - 24H CHG Value: +11.24%
+2025-05-22 12:19:02 INFO  Log:16 - =====================================verifyThatUserIsAbleToClickOnUSDCSectionInFIATMarketSectionAndAbleToValidateTheTableDataTest TEST END=========================================
+2025-05-22 12:19:27 INFO  Log:12 - =====================================verifyThatUserIsAbleToClickOnUSDTSectionInFIATMarketSectionAndAbleToValidateTheTableDataTest TEST START=========================================
+2025-05-22 12:19:28 INFO  Log:22 - Clicked on Markets Header Menu Button
+2025-05-22 12:19:31 INFO  Log:22 - Clicked on spot marktes section
+2025-05-22 12:19:34 INFO  Log:22 - Clicked on FIAT Market section
+2025-05-22 12:20:31 INFO  Log:12 - =====================================verifyThatUserIsAbleToClickOnZonesAndVerifyItsTableDataTest TEST START=========================================
+2025-05-22 12:20:32 INFO  Log:22 - Clicked on Markets Header Menu Button
+2025-05-22 12:20:34 INFO  Log:22 - Clicked on Zones section
+2025-05-22 12:20:59 INFO  Log:22 - Zones Table Data: {bodyRows=[[BTC, $110,737.45, +2.73%, $2,202,478.6M, Trade, Details], [ETH, $2,616.9, +0.65%, $316,015.3M, Trade, Details], [USDT, $1, +0.00%, $151,955.4M, Trade, Details], [XRP, $2.4, +0.75%, $140,852.3M, Trade, Details], [BNB, $680.23, +2.95%, $95,877.4M, Trade, Details], [SOL, $176.15, +2.93%, $91,626.9M, Trade, Details], [USDC, $0.99, +0.02%, $61,184.2M, Trade, Details], [DOGE, $0.23, +2.72%, $35,586.8M, Trade, Details], [ADA, $0.78, +3.21%, $27,846M, Trade, Details], [TRX, $0.27, +0.29%, $25,855.7M, Trade, Details], [WBTC, $110,529.04, +2.68%, $14,270.9M, Trade, Details], [SUI, $4.04, +3.55%, $13,505.5M, Trade, Details], [LINK, $16.29, +1.75%, $10,710.7M, Trade, Details], [AVAX, $24.09, +5.20%, $10,130.3M, Trade, Details], [XLM, $0.29, +2.10%, $9,230.5M, Trade, Details], [SHIB, $0.000015, +1.08%, $8,844.6M, Trade, Details], [HBAR, $0.20, +1.21%, $8,463.6M, Trade, Details], [BCH, $414.41, +3.52%, $8,245.2M, Trade, Details], [TON, $3.13, +1.46%, $7,799.3M, Trade, Details], [DOT, $4.8, +0.99%, $7,579.5M, Trade, Details]], headers=[[Name, Last Price, 24h CHG, Market Cap, Action, Details]]}
+2025-05-22 12:21:01 INFO  Log:22 - Table Headers:
+2025-05-22 12:21:01 INFO  Log:22 - Header Row 1: [Name, Last Price, 24h CHG, Market Cap, Action, Details]
+2025-05-22 12:21:03 INFO  Log:22 - Table Body Rows:
+2025-05-22 12:21:03 INFO  Log:22 - Row 1: [BTC, $110,737.45, +2.73%, $2,202,478.6M, Trade, Details]
+2025-05-22 12:21:03 INFO  Log:22 - 24H CHG Value: $2,202,478.6M
+2025-05-22 12:21:03 INFO  Log:22 - Row 2: [ETH, $2,616.9, +0.65%, $316,015.3M, Trade, Details]
+2025-05-22 12:21:03 INFO  Log:22 - 24H CHG Value: $316,015.3M
+2025-05-22 12:21:03 INFO  Log:22 - Row 3: [USDT, $1, +0.00%, $151,955.4M, Trade, Details]
+2025-05-22 12:21:03 INFO  Log:22 - 24H CHG Value: $151,955.4M
+2025-05-22 12:21:03 INFO  Log:22 - Row 4: [XRP, $2.4, +0.75%, $140,852.3M, Trade, Details]
+2025-05-22 12:21:03 INFO  Log:22 - 24H CHG Value: $140,852.3M
+2025-05-22 12:21:03 INFO  Log:22 - Row 5: [BNB, $680.23, +2.95%, $95,877.4M, Trade, Details]
+2025-05-22 12:21:03 INFO  Log:22 - 24H CHG Value: $95,877.4M
+2025-05-22 12:21:03 INFO  Log:22 - Row 6: [SOL, $176.15, +2.93%, $91,626.9M, Trade, Details]
+2025-05-22 12:21:03 INFO  Log:22 - 24H CHG Value: $91,626.9M
+2025-05-22 12:21:03 INFO  Log:22 - Row 7: [USDC, $0.99, +0.02%, $61,184.2M, Trade, Details]
+2025-05-22 12:21:03 INFO  Log:22 - 24H CHG Value: $61,184.2M
+2025-05-22 12:21:03 INFO  Log:22 - Row 8: [DOGE, $0.23, +2.72%, $35,586.8M, Trade, Details]
+2025-05-22 12:21:03 INFO  Log:22 - 24H CHG Value: $35,586.8M
+2025-05-22 12:21:03 INFO  Log:22 - Row 9: [ADA, $0.78, +3.21%, $27,846M, Trade, Details]
+2025-05-22 12:21:03 INFO  Log:22 - 24H CHG Value: $27,846M
+2025-05-22 12:21:03 INFO  Log:22 - Row 10: [TRX, $0.27, +0.29%, $25,855.7M, Trade, Details]
+2025-05-22 12:21:03 INFO  Log:22 - 24H CHG Value: $25,855.7M
+2025-05-22 12:21:03 INFO  Log:22 - Row 11: [WBTC, $110,529.04, +2.68%, $14,270.9M, Trade, Details]
+2025-05-22 12:21:03 INFO  Log:22 - 24H CHG Value: $14,270.9M
+2025-05-22 12:21:03 INFO  Log:22 - Row 12: [SUI, $4.04, +3.55%, $13,505.5M, Trade, Details]
+2025-05-22 12:21:03 INFO  Log:22 - 24H CHG Value: $13,505.5M
+2025-05-22 12:21:03 INFO  Log:22 - Row 13: [LINK, $16.29, +1.75%, $10,710.7M, Trade, Details]
+2025-05-22 12:21:03 INFO  Log:22 - 24H CHG Value: $10,710.7M
+2025-05-22 12:21:03 INFO  Log:22 - Row 14: [AVAX, $24.09, +5.20%, $10,130.3M, Trade, Details]
+2025-05-22 12:21:03 INFO  Log:22 - 24H CHG Value: $10,130.3M
+2025-05-22 12:21:03 INFO  Log:22 - Row 15: [XLM, $0.29, +2.10%, $9,230.5M, Trade, Details]
+2025-05-22 12:21:03 INFO  Log:22 - 24H CHG Value: $9,230.5M
+2025-05-22 12:21:03 INFO  Log:22 - Row 16: [SHIB, $0.000015, +1.08%, $8,844.6M, Trade, Details]
+2025-05-22 12:21:03 INFO  Log:22 - 24H CHG Value: $8,844.6M
+2025-05-22 12:21:03 INFO  Log:22 - Row 17: [HBAR, $0.20, +1.21%, $8,463.6M, Trade, Details]
+2025-05-22 12:21:03 INFO  Log:22 - 24H CHG Value: $8,463.6M
+2025-05-22 12:21:03 INFO  Log:22 - Row 18: [BCH, $414.41, +3.52%, $8,245.2M, Trade, Details]
+2025-05-22 12:21:03 INFO  Log:22 - 24H CHG Value: $8,245.2M
+2025-05-22 12:21:03 INFO  Log:22 - Row 19: [TON, $3.13, +1.46%, $7,799.3M, Trade, Details]
+2025-05-22 12:21:03 INFO  Log:22 - 24H CHG Value: $7,799.3M
+2025-05-22 12:21:03 INFO  Log:22 - Row 20: [DOT, $4.8, +0.99%, $7,579.5M, Trade, Details]
+2025-05-22 12:21:03 INFO  Log:22 - 24H CHG Value: $7,579.5M
+2025-05-22 12:21:03 INFO  Log:16 - =====================================verifyThatUserIsAbleToClickOnZonesAndVerifyItsTableDataTest TEST END=========================================
+2025-05-22 12:21:27 INFO  Log:12 - =====================================verifyThatUserIsAbleToNavigateToTheMarketsSectionTest TEST START=========================================
+2025-05-22 12:21:27 INFO  Log:22 - Clicked on Markets Header Menu Button
+2025-05-22 12:21:29 INFO  Log:22 - Actual Markets Page Title: Cryptocurrency Markets | Crypto Prices & Market Cap | IXFI
+2025-05-22 12:21:29 INFO  Log:22 - Expected Markets Page Title: Cryptocurrency Markets | Crypto Prices & Market Cap | IXFI
+2025-05-22 12:21:29 INFO  Log:16 - =====================================verifyThatUserIsAbleToNavigateToTheMarketsSectionTest TEST END=========================================
+2025-05-22 12:21:55 INFO  Log:12 - =====================================verifyTheDefualtCoinPairsIsDisplayedOnTheCardPresentOnMarketPageTest TEST START=========================================
+2025-05-22 12:21:56 INFO  Log:22 - Clicked on Markets Header Menu Button
+2025-05-22 12:22:14 INFO  Log:22 - Captured the defualt coins pairs and the size is: 0
+2025-05-22 12:22:37 INFO  Log:12 - =====================================verifyTheDetailsButtonsFromActionColumnIsClickableAndAbleToOpenInNewTabTest TEST START=========================================
+2025-05-22 12:22:39 INFO  Log:22 - Clicked on Markets Header Menu Button
+2025-05-22 12:22:42 INFO  Log:22 - Clicked on spot marktes section
+2025-05-22 12:22:43 INFO  Log:22 - Clicked on All tab in spot markets: 
+2025-05-22 12:31:07 INFO  Log:12 - =====================================verifyTheTradeButtonsFromActionColumnIsClickableAndAbleToOpenInNewTabTest TEST START=========================================
+2025-05-22 12:31:08 INFO  Log:22 - Clicked on Markets Header Menu Button
+2025-05-22 12:31:10 INFO  Log:22 - Scrolled to the spot markets section
+2025-05-22 12:31:39 INFO  Log:12 - =====================================verifyThatTradeChartIsDisplayedTest TEST START=========================================
+2025-05-22 12:31:40 INFO  Log:22 - Clicked on TradeMenu
+2025-05-22 12:31:41 INFO  Log:22 - Presence of Trade chart: true
+2025-05-22 12:31:41 INFO  Log:22 - Presence of order book: true
+2025-05-22 12:31:42 INFO  Log:22 - Presence of market section: true
+2025-05-22 12:31:42 INFO  Log:16 - =====================================verifyThatTradeChartIsDisplayedTest TEST END=========================================
+2025-05-22 12:32:21 INFO  Log:12 - =====================================verifyThatUserIsAbleToClickOnLoginButtonUnderBuySectionTest TEST START=========================================
+2025-05-22 12:32:23 INFO  Log:22 - Clicked on TradeMenu
+2025-05-22 12:32:28 INFO  Log:22 - Selected coin pair name: BTC/USDC
+2025-05-22 12:32:28 INFO  Log:22 - First Coin: BTC
+2025-05-22 12:32:28 INFO  Log:22 - Second Coin: USDC
+2025-05-22 12:32:33 INFO  Log:22 - Clicked on Buy section
+2025-05-22 12:32:33 INFO  Log:22 - Price Field Coin Name: USDC
+2025-05-22 12:32:33 INFO  Log:22 - Quantity Field Coin Name: BTC
+2025-05-22 12:32:36 INFO  Log:22 - Clicked On Login Button under buy section
+2025-05-22 12:32:38 INFO  Log:22 - User is navigated to the login page and the welcome text is: Welcome To IXFI
+2025-05-22 12:32:38 INFO  Log:16 - =====================================verifyThatUserIsAbleToClickOnLoginButtonUnderBuySectionTest TEST END=========================================
+2025-05-22 12:33:01 INFO  Log:12 - =====================================verifyThatUserIsAbleToClickOnLoginButtonUnderSellSectionTest TEST START=========================================
+2025-05-22 12:33:03 INFO  Log:22 - Clicked on TradeMenu
+2025-05-22 12:33:05 INFO  Log:22 - Selected coin pair name: BTC/USDC
+2025-05-22 12:33:05 INFO  Log:22 - First Coin: BTC
+2025-05-22 12:33:05 INFO  Log:22 - Second Coin: USDC
+2025-05-22 12:33:12 INFO  Log:22 - Clicked on Sell section
+2025-05-22 12:33:14 INFO  Log:22 - Price Field Coin Name: USDC
+2025-05-22 12:33:15 INFO  Log:22 - Quantity Field Coin Name: BTC
+2025-05-22 12:33:17 INFO  Log:22 - Clicked On Login Button under buy section
+2025-05-22 12:33:20 INFO  Log:22 - User is navigated to the login page and the welcome text is: Welcome To IXFI
+2025-05-22 12:33:20 INFO  Log:16 - =====================================verifyThatUserIsAbleToClickOnLoginButtonUnderSellSectionTest TEST END=========================================

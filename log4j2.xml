@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+	<!-- Console Appender -->
+	<Appenders>
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout>
+				<Pattern>%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n</Pattern>
+			</PatternLayout>
+		</Console>
+
+		<!-- Rolling File Appender -->
+		<RollingFile name="FileAppender" fileName="Logs/log4j.log"
+			filePattern="Logs/log4j-%d{MM-dd-yyyy}.log.gz">
+			<PatternLayout>
+				<Pattern>%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n</Pattern>
+			</PatternLayout>
+			<Policies>
+				<TimeBasedTriggeringPolicy />
+			</Policies>
+		</RollingFile>
+	</Appenders>
+
+	<!-- Root Logger -->
+	<Loggers>
+		<Root level="debug">
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="FileAppender" />
+		</Root>
+		<!-- this is to suppress the unwanted debug logs getting added into log
+		file -->
+		<Logger name="io.github.bonigarcia" level="warn" additivity="false">
+			<AppenderRef ref="Console" />
+		</Logger>
+		<Logger name="org.apache.http" level="warn" additivity="false">
+			<AppenderRef ref="Console" />
+		</Logger>
+	</Loggers>
+</Configuration>

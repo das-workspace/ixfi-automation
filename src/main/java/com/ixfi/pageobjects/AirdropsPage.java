@@ -1,0 +1,27 @@
+package com.ixfi.pageobjects;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.PageFactory;
+
+import com.ixfi.actiondriver.Action;
+import com.ixfi.basepage.BaseClass;
+
+public class AirdropsPage extends BaseClass{
+
+	//WebElement
+	
+	
+	
+	//Construter 
+	public AirdropsPage(WebDriver driver) {
+		BaseClass.driver = driver;
+
+		PageFactory.initElements(driver, this);
+	}
+	
+	public String getAirdropsPageTitle()
+	{
+		String airdropsPageTitle=Action.getTitle(driver);
+		return airdropsPageTitle;
+	}
+}

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.ixfi.utility.ListenerClass"/>
+  </listeners>
+  <test thread-count="5" name="Test_All(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.ixfi.testcases.TradePageTest">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="setUpTest"/>
+          <include name="verifyThatWhenUserClicksOnLoginLinkUserIsNavigatedToLoginPage"/>
+          <include name="loadConfiguration"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verifyThatWhenUserClicksOnRegisterNowLinkUserIsNavigatedToRegisterPage"/>
+          <include name="verifyThePresenceOfHeaderTitle"/>
+        </methods>
+      </class> <!-- com.ixfi.testcases.TradePageTest -->
+      <class name="com.ixfi.testcases.MarketsPageTest">
+        <methods>
+          <include name="verifyTheDetailsButtonsFromActionColumnIsClickableAndAbleToOpenInNewTab"/>
+          <include name="afterSuite"/>
+          <include name="loadConfiguration"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verifyTheDefualtCoinPairsIsDisplayedOnTheCardPresentOnMarketPage"/>
+          <include name="verifyThatUserIsAbleToClickOnFDUSDSectionInFIATMarketSectionAndAbleToValidateTheTableData"/>
+          <include name="verifyTheTradeButtonsFromActionColumnIsClickableAndAbleToOpenInNewTab"/>
+          <include name="verifyThatUserIsAbleToClickOnUSDTSectionInFIATMarketSectionAndAbleToValidateTheTableData"/>
+          <include name="setUpTest"/>
+        </methods>
+      </class> <!-- com.ixfi.testcases.MarketsPageTest -->
+      <class name="com.ixfi.testcases.IndexPageTest">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="loadConfiguration"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setUpTest"/>
+          <include name="verifyDetailsButtonFromTheMarketTablesActionColumnIsClickableAndOpenItInNewTab"/>
+          <include name="verifyTradeButtonFromTheMarketTablesActionColumnIsClickableAndOpenItInNewTab"/>
+          <include name="verifyThatStartTradingNowButtonIsClickableAndUserIsNavigatedToTradePage"/>
+        </methods>
+      </class> <!-- com.ixfi.testcases.IndexPageTest -->
+      <class name="com.ixfi.testcases.LoginPageTest">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="loadConfiguration"/>
+          <include name="setUpTest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="verifyLoginByEmailFunctionality"/>
+        </methods>
+      </class> <!-- com.ixfi.testcases.LoginPageTest -->
+      <class name="com.ixfi.testcases.ForgotPasswordPageTest">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="verifyPasswordResetLinkIsSentOnTheRegisteredEmailID"/>
+          <include name="loadConfiguration"/>
+          <include name="tearDown"/>
+          <include name="setUpTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.ixfi.testcases.ForgotPasswordPageTest -->
+    </classes>
+  </test> <!-- Test_All(failed) -->
+</suite> <!-- Failed suite [Suite] -->

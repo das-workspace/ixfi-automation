@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.ixfi.utility.ListenerClass" />
+	</listeners>
+
+
+	<test thread-count="5" name="Test_All">
+	<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="com.ixfi.testcases.IndexPageTest"></class>
+			<class name="com.ixfi.testcases.SignUpPageTest" />
+			<class name="com.ixfi.testcases.LoginPageTest">
+				<!--	<methods>
+					<exclude name="verifyLoginByEmailFunctionality" />
+
+				</methods> -->
+				
+			</class>
+			<class name="com.ixfi.testcases.ForgotPasswordPageTest"></class>
+			<class name="com.ixfi.testcases.FooterPageTest"></class>
+			<class name="com.ixfi.testcases.StatusPageTest"></class>
+			<class name="com.ixfi.testcases.MarketsPageTest"></class>
+			<!--
+			<class name="com.ixfi.testcases.BuyCryptoPageTest">
+				<methods>
+					<exclude name="verifyTheListOfAvailableCountriesAndRetrieveTheFullName"></exclude>
+					<exclude name="verifyTheListOfAvailableCountriesAndRetrieveTheShortName"></exclude>
+					<exclude name="verifyThatUserIsAbleToFetchTheAvailableOffers"></exclude>
+				</methods>
+			
+			
+			</class>   
+			<class name="com.ixfi.testcases.IXFITokenPageTest"></class>
+				<methods>
+					<exclude name="verifyThePresenceOfHeaderMenu" />
+				</methods>-->
+			<class name="com.ixfi.testcases.TradePageTest"></class>
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
